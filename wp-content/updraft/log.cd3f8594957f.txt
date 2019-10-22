@@ -1,0 +1,1202 @@
+0000.000 (0) Opened log file at time: Sat, 21 Sep 2019 17:11:42 +0000 on http://www.davidefiammenghi.com
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.16 WP: 5.2.2 PHP: 7.3.9 (cgi-fcgi, Linux lhcp2083.webapps.net 2.6.32-954.3.5.lve1.4.59.el6.x86_64 #1 SMP Thu Dec 6 05:11:00 EST 2018 x86_64) MySQL: 5.6.43-cll-lve WPLANG: it_IT Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.4M | 48.5M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.099 (0) Free space on disk containing Updraft's temporary directory: 396345.4 MB
+0000.156 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB:  (schedule: monthly)
+0000.158 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.402 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1569084046, seconds_ago=1857)
+0000.410 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2019-09-21 17:11:43
+0000.416 (0) Semaphore (fd, wp_options) reset to 1
+0000.421 (0) Set semaphore last lock (fd) time to 2019-09-21 17:11:43
+0000.427 (0) Semaphore lock (fd) complete
+0000.440 (0) Backup run: resumption=0, nonce=cd3f8594957f, file_nonce=cd3f8594957f begun at=1569085902 (1s ago), job type=backup
+0000.446 (0) Scheduling a resumption (1) after 600 seconds (1569086503) in case this run gets aborted
+0000.901 (0) Checking if we have a zip executable available
+0000.911 (0) Testing: /usr/bin/zip
+0000.942 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.975 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.980 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0001.018 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0001.029 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0004.593 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0004.595 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0005.064 (0) Working binary zip found: /usr/bin/zip
+0005.069 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0005.070 (0) Creation of backups of directories: beginning
+0005.095 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0026.605 (0) Total entities for the zip file: 958 directories, 5001 files (0 skipped as non-modified), 84 MB
+0026.612 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0032.804 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: size is now: 0.20 MB
+0032.811 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 100 files added (on-disk size: 211.6 KB)
+0032.814 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 200 files added (on-disk size: 211.6 KB)
+0032.820 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 300 files added (on-disk size: 211.6 KB)
+0032.825 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 400 files added (on-disk size: 211.6 KB)
+0032.874 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 500 files added (on-disk size: 211.6 KB)
+0032.997 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.7 MB, 5001 files batched, 501 (502) added so far); re-opening (prior size: 211.6 KB)
+0075.085 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: size is now: 5.40 MB
+0075.095 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 600 files added (on-disk size: 5490.6 KB)
+0075.098 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 700 files added (on-disk size: 5490.6 KB)
+0075.104 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 800 files added (on-disk size: 5490.6 KB)
+0075.109 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 900 files added (on-disk size: 5490.6 KB)
+0075.114 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 1000 files added (on-disk size: 5490.6 KB)
+0075.117 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9 MB, 5001 files batched, 501 (1003) added so far); re-opening (prior size: 5490.6 KB)
+0125.863 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: size is now: 7.90 MB
+0125.871 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 1100 files added (on-disk size: 8118.8 KB)
+0125.877 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 1200 files added (on-disk size: 8118.8 KB)
+0125.881 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 1300 files added (on-disk size: 8118.8 KB)
+0125.886 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 1400 files added (on-disk size: 8118.8 KB)
+0125.891 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 1500 files added (on-disk size: 8118.8 KB)
+0125.895 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.8 MB, 5001 files batched, 501 (1504) added so far); re-opening (prior size: 8118.8 KB)
+0177.764 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: size is now: 10.70 MB
+0177.773 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 1600 files added (on-disk size: 10977 KB)
+0177.777 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 1700 files added (on-disk size: 10977 KB)
+0177.784 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 1800 files added (on-disk size: 10977 KB)
+0177.787 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 1900 files added (on-disk size: 10977 KB)
+0177.792 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 2000 files added (on-disk size: 10977 KB)
+0177.796 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 5001 files batched, 501 (2005) added so far); re-opening (prior size: 10977 KB)
+0204.170 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 2100 files added (on-disk size: 12275.5 KB)
+0204.410 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 2200 files added (on-disk size: 12275.5 KB)
+0204.536 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 2300 files added (on-disk size: 12275.5 KB)
+0204.796 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 2400 files added (on-disk size: 12275.5 KB)
+0204.910 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 2500 files added (on-disk size: 12275.5 KB)
+0205.158 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.7 MB, 5001 files batched, 501 (2506) added so far); re-opening (prior size: 12275.5 KB)
+0263.484 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 2600 files added (on-disk size: 14301.5 KB)
+0263.488 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 2700 files added (on-disk size: 14301.5 KB)
+0263.492 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 2800 files added (on-disk size: 14301.5 KB)
+0263.498 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 2900 files added (on-disk size: 14301.5 KB)
+0263.502 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 3000 files added (on-disk size: 14301.5 KB)
+0263.507 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.9 MB, 5001 files batched, 501 (3007) added so far); re-opening (prior size: 14301.5 KB)
+0287.807 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 3100 files added (on-disk size: 16041.1 KB)
+0287.811 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 3200 files added (on-disk size: 16041.1 KB)
+0287.816 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 3300 files added (on-disk size: 16041.1 KB)
+0287.821 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 3400 files added (on-disk size: 16041.1 KB)
+0287.826 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 3500 files added (on-disk size: 16041.1 KB)
+0287.830 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 5001 files batched, 501 (3508) added so far); re-opening (prior size: 16041.1 KB)
+0360.727 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 3600 files added (on-disk size: 17601.5 KB)
+0360.732 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 3700 files added (on-disk size: 17601.5 KB)
+0360.743 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 3800 files added (on-disk size: 17601.5 KB)
+0360.752 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 3900 files added (on-disk size: 17601.5 KB)
+0360.758 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 4000 files added (on-disk size: 17601.5 KB)
+0360.762 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.6 MB, 5001 files batched, 501 (4009) added so far); re-opening (prior size: 17601.5 KB)
+0394.109 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 4100 files added (on-disk size: 18316.5 KB)
+0394.114 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 4200 files added (on-disk size: 18316.5 KB)
+0394.119 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 4300 files added (on-disk size: 18316.5 KB)
+0394.124 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 4400 files added (on-disk size: 18316.5 KB)
+0394.128 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 4500 files added (on-disk size: 18316.5 KB)
+0394.132 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.6 MB, 5001 files batched, 501 (4510) added so far); re-opening (prior size: 18316.5 KB)
+0503.278 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: size is now: 22.10 MB
+0503.285 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 4600 files added (on-disk size: 22586.2 KB)
+0503.288 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 4700 files added (on-disk size: 22586.2 KB)
+0503.293 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 4800 files added (on-disk size: 22586.2 KB)
+0503.298 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 4900 files added (on-disk size: 22586.2 KB)
+0503.303 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip.tmp: 5000 files added (on-disk size: 22586.2 KB)
+0576.373 (0) The time we have been running (576.4) is approaching the resumption interval (600) - increasing resumption interval to 607
+0583.584 (0) The time we have been running (583.6) is approaching the resumption interval (607) - increasing resumption interval to 614
+0589.475 (0) The time we have been running (589.5) is approaching the resumption interval (614) - increasing resumption interval to 620
+0595.400 (0) The time we have been running (595.4) is approaching the resumption interval (620) - increasing resumption interval to 626
+0601.578 (0) The time we have been running (601.6) is approaching the resumption interval (626) - increasing resumption interval to 632
+0608.819 (0) The time we have been running (608.8) is approaching the resumption interval (632) - increasing resumption interval to 639
+0612.078 (0) The time we have been running (612.1) is approaching the resumption interval (639) - increasing resumption interval to 643
+0612.291 (0) Created plugins zip (0) - 25904.9 KB in 607.1 s (42.7 KB/s) (sha1: eddf3ebf7025fb380fcd7a669349c50d4de4ee87, sha256: da524a9585d86289c315cdefe0bf09b2b07012047355b19b8d122f49317320b0)
+0612.374 (0) Beginning creation of dump of themes (split every: 400 MB)
+0613.317 (0) Total entities for the zip file: 57 directories, 180 files (0 skipped as non-modified), 4.5 MB
+0613.328 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0619.005 (0) The time we have been running (619) is approaching the resumption interval (643) - increasing resumption interval to 650
+0624.520 (0) The time we have been running (624.5) is approaching the resumption interval (650) - increasing resumption interval to 655
+0635.471 (0) The time we have been running (635.5) is approaching the resumption interval (655) - increasing resumption interval to 666
+0635.480 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-themes.zip.tmp: size is now: 2.50 MB
+0635.519 (0) Created themes zip (0) - 2595.6 KB in 23.1 s (112.6 KB/s) (sha1: d176fde51d0f369bea3748856df468dad771acce, sha256: 8ca51f4099cd83b204cb288992e4dea31fe8e0e90435c8f9daf52b36d636ead8)
+0635.577 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0635.763 (0) Looking for candidates to backup in: /home/iv3flim9/public_html/wp-content/uploads
+0636.137 (0) finding files: 2018: adding to list (1)
+0636.140 (0) finding files: wp-file-manager-pro: adding to list (2)
+0636.145 (0) finding files: backgrounds: adding to list (3)
+0636.150 (0) finding files: 2017: adding to list (4)
+0636.155 (0) finding files: 2019: adding to list (5)
+0636.160 (0) finding files: logos: adding to list (6)
+0636.165 (0) finding files: icons: adding to list (7)
+0636.170 (0) finding files: covers: adding to list (8)
+0636.179 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0636.827 (0) Total entities for the zip file: 29 directories, 1740 files (0 skipped as non-modified), 309.9 MB
+0636.832 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0636.836 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (26.3 MB, 1740 files batched, 147 (147) added so far); re-opening (prior size: 0 KB)
+0645.041 (0) The time we have been running (645) is approaching the resumption interval (666) - increasing resumption interval to 676
+0651.068 (0) The time we have been running (651.1) is approaching the resumption interval (676) - increasing resumption interval to 682
+0659.479 (0) The time we have been running (659.5) is approaching the resumption interval (682) - increasing resumption interval to 690
+0665.617 (0) The time we have been running (665.6) is approaching the resumption interval (690) - increasing resumption interval to 696
+0683.264 (0) The time we have been running (683.3) is approaching the resumption interval (696) - increasing resumption interval to 714
+0688.562 (0) The time we have been running (688.6) is approaching the resumption interval (714) - increasing resumption interval to 719
+0699.613 (0) The time we have been running (699.6) is approaching the resumption interval (719) - increasing resumption interval to 730
+0707.809 (0) The time we have been running (707.8) is approaching the resumption interval (730) - increasing resumption interval to 738
+0713.393 (0) The time we have been running (713.4) is approaching the resumption interval (738) - increasing resumption interval to 744
+0725.547 (0) The time we have been running (725.5) is approaching the resumption interval (744) - increasing resumption interval to 756
+0737.553 (0) The time we have been running (737.5) is approaching the resumption interval (756) - increasing resumption interval to 768
+0738.090 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: size is now: 26.30 MB
+0738.100 (0) The time we have been running (738.1) is approaching the resumption interval (768) - increasing resumption interval to 769
+0738.102 (0) A useful amount of data was added after this amount of zip processing: 102.7 s (normalised: 97.8 s, rate: 261.8 KB/s)
+0738.107 (0) Performance is good - will increase the amount of data we attempt to batch (time=102.73563909531, normalised_time=97.788011983996, max_time=738.10581803322, data points known=1, old_max_bytes=26214400, new_max_bytes=118720080)
+0738.112 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 200 files added (on-disk size: 26930.7 KB)
+0738.117 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 300 files added (on-disk size: 26930.7 KB)
+0738.122 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 400 files added (on-disk size: 26930.7 KB)
+0738.127 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 500 files added (on-disk size: 26930.7 KB)
+0738.132 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 600 files added (on-disk size: 26930.7 KB)
+0738.136 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (96 MB, 1740 files batched, 501 (648) added so far); re-opening (prior size: 26930.7 KB)
+0754.766 (0) The time we have been running (754.8) is approaching the resumption interval (769) - increasing resumption interval to 785
+0762.426 (0) The time we have been running (762.4) is approaching the resumption interval (785) - increasing resumption interval to 793
+0768.892 (0) The time we have been running (768.9) is approaching the resumption interval (793) - increasing resumption interval to 799
+0805.786 (0) The time we have been running (805.8) is approaching the resumption interval (799) - increasing resumption interval to 836
+0812.531 (0) The time we have been running (812.5) is approaching the resumption interval (836) - increasing resumption interval to 843
+0819.277 (0) The time we have been running (819.3) is approaching the resumption interval (843) - increasing resumption interval to 850
+0827.512 (0) The time we have been running (827.5) is approaching the resumption interval (850) - increasing resumption interval to 858
+0834.459 (0) The time we have been running (834.5) is approaching the resumption interval (858) - increasing resumption interval to 865
+0855.359 (0) The time we have been running (855.4) is approaching the resumption interval (865) - increasing resumption interval to 886
+0860.683 (0) The time we have been running (860.7) is approaching the resumption interval (886) - increasing resumption interval to 891
+0869.003 (0) The time we have been running (869) is approaching the resumption interval (891) - increasing resumption interval to 899
+0874.464 (0) The time we have been running (874.5) is approaching the resumption interval (899) - increasing resumption interval to 905
+0880.593 (0) The time we have been running (880.6) is approaching the resumption interval (905) - increasing resumption interval to 911
+0888.972 (0) The time we have been running (889) is approaching the resumption interval (911) - increasing resumption interval to 919
+0894.855 (0) The time we have been running (894.9) is approaching the resumption interval (919) - increasing resumption interval to 925
+0908.259 (0) The time we have been running (908.3) is approaching the resumption interval (925) - increasing resumption interval to 939
+0918.491 (0) The time we have been running (918.5) is approaching the resumption interval (939) - increasing resumption interval to 949
+0925.737 (0) The time we have been running (925.7) is approaching the resumption interval (949) - increasing resumption interval to 956
+0932.765 (0) The time we have been running (932.8) is approaching the resumption interval (956) - increasing resumption interval to 963
+0941.407 (0) The time we have been running (941.4) is approaching the resumption interval (963) - increasing resumption interval to 972
+0941.432 (1) Opened log file at time: Sat, 21 Sep 2019 17:27:24 +0000 on http://www.davidefiammenghi.com
+0941.436 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.16 WP: 5.2.2 PHP: 7.3.9 (cgi-fcgi, Linux lhcp2083.webapps.net 2.6.32-954.3.5.lve1.4.59.el6.x86_64 #1 SMP Thu Dec 6 05:11:00 EST 2018 x86_64) MySQL: 5.6.43-cll-lve WPLANG: it_IT Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.7M | 48.5M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0941.498 (1) Free space on disk containing Updraft's temporary directory: 396492.5 MB
+0941.502 (1) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1569086844.5, time_now=1569086844.1, diff=-1, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+0941.510 (1) A new resumption will be scheduled to prevent the job ending
+0941.516 (1) Rescheduling resumption 2: moving to 600 seconds from now (1569087444)
+0941.527 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 972 + 120 = 1092
+0953.991 (0) The time we have been running (954) is approaching the resumption interval (972) - increasing resumption interval to 984
+0967.909 (0) The time we have been running (967.9) is approaching the resumption interval (984) - increasing resumption interval to 998
+0974.178 (0) The time we have been running (974.2) is approaching the resumption interval (998) - increasing resumption interval to 1005
+0979.458 (0) The time we have been running (979.5) is approaching the resumption interval (1005) - increasing resumption interval to 1010
+0985.414 (0) The time we have been running (985.4) is approaching the resumption interval (1010) - increasing resumption interval to 1016
+0996.904 (0) The time we have been running (996.9) is approaching the resumption interval (1016) - increasing resumption interval to 1027
+1003.325 (0) The time we have been running (1003.3) is approaching the resumption interval (1027) - increasing resumption interval to 1034
+1009.491 (0) The time we have been running (1009.5) is approaching the resumption interval (1034) - increasing resumption interval to 1040
+1025.680 (0) The time we have been running (1025.7) is approaching the resumption interval (1040) - increasing resumption interval to 1056
+1031.840 (0) The time we have been running (1031.8) is approaching the resumption interval (1056) - increasing resumption interval to 1062
+1037.589 (0) The time we have been running (1037.6) is approaching the resumption interval (1062) - increasing resumption interval to 1068
+1043.417 (0) The time we have been running (1043.4) is approaching the resumption interval (1068) - increasing resumption interval to 1074
+1058.603 (0) The time we have been running (1058.6) is approaching the resumption interval (1074) - increasing resumption interval to 1089
+1064.760 (0) The time we have been running (1064.8) is approaching the resumption interval (1089) - increasing resumption interval to 1095
+1070.549 (0) The time we have been running (1070.5) is approaching the resumption interval (1095) - increasing resumption interval to 1101
+1080.996 (0) The time we have been running (1081) is approaching the resumption interval (1101) - increasing resumption interval to 1111
+1087.014 (0) The time we have been running (1087) is approaching the resumption interval (1111) - increasing resumption interval to 1118
+1094.149 (0) The time we have been running (1094.1) is approaching the resumption interval (1118) - increasing resumption interval to 1125
+1094.572 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: size is now: 122.40 MB
+1094.578 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 700 files added (on-disk size: 125292.7 KB)
+1094.583 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 800 files added (on-disk size: 125292.7 KB)
+1094.588 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 900 files added (on-disk size: 125292.7 KB)
+1094.593 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 1000 files added (on-disk size: 125292.7 KB)
+1094.598 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 1100 files added (on-disk size: 125292.7 KB)
+1094.602 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (90.8 MB, 1740 files batched, 501 (1149) added so far); re-opening (prior size: 125292.7 KB)
+1220.199 (0) The time we have been running (1220.2) is approaching the resumption interval (1125) - increasing resumption interval to 1251
+1227.159 (0) The time we have been running (1227.2) is approaching the resumption interval (1251) - increasing resumption interval to 1258
+1233.934 (0) The time we have been running (1233.9) is approaching the resumption interval (1258) - increasing resumption interval to 1264
+1287.681 (0) The time we have been running (1287.7) is approaching the resumption interval (1264) - increasing resumption interval to 1318
+1293.782 (0) The time we have been running (1293.8) is approaching the resumption interval (1318) - increasing resumption interval to 1324
+1301.085 (0) The time we have been running (1301.1) is approaching the resumption interval (1324) - increasing resumption interval to 1332
+1308.462 (0) The time we have been running (1308.5) is approaching the resumption interval (1332) - increasing resumption interval to 1339
+1315.890 (0) The time we have been running (1315.9) is approaching the resumption interval (1339) - increasing resumption interval to 1346
+1321.411 (0) The time we have been running (1321.4) is approaching the resumption interval (1346) - increasing resumption interval to 1352
+1339.966 (0) The time we have been running (1340) is approaching the resumption interval (1352) - increasing resumption interval to 1370
+1346.895 (0) The time we have been running (1346.9) is approaching the resumption interval (1370) - increasing resumption interval to 1377
+1352.465 (0) The time we have been running (1352.5) is approaching the resumption interval (1377) - increasing resumption interval to 1383
+1365.530 (0) The time we have been running (1365.5) is approaching the resumption interval (1383) - increasing resumption interval to 1396
+1371.872 (0) The time we have been running (1371.9) is approaching the resumption interval (1396) - increasing resumption interval to 1402
+1378.224 (0) The time we have been running (1378.2) is approaching the resumption interval (1402) - increasing resumption interval to 1409
+1383.411 (0) The time we have been running (1383.4) is approaching the resumption interval (1409) - increasing resumption interval to 1414
+1398.981 (0) The time we have been running (1399) is approaching the resumption interval (1414) - increasing resumption interval to 1429
+1406.048 (0) The time we have been running (1406) is approaching the resumption interval (1429) - increasing resumption interval to 1437
+1412.869 (0) The time we have been running (1412.9) is approaching the resumption interval (1437) - increasing resumption interval to 1443
+1429.102 (0) The time we have been running (1429.1) is approaching the resumption interval (1443) - increasing resumption interval to 1460
+1434.391 (0) The time we have been running (1434.4) is approaching the resumption interval (1460) - increasing resumption interval to 1465
+1440.406 (0) The time we have been running (1440.4) is approaching the resumption interval (1465) - increasing resumption interval to 1471
+1455.338 (0) The time we have been running (1455.3) is approaching the resumption interval (1471) - increasing resumption interval to 1486
+1460.748 (0) The time we have been running (1460.7) is approaching the resumption interval (1486) - increasing resumption interval to 1491
+1467.770 (0) The time we have been running (1467.8) is approaching the resumption interval (1491) - increasing resumption interval to 1498
+1475.344 (0) The time we have been running (1475.3) is approaching the resumption interval (1498) - increasing resumption interval to 1506
+1486.616 (0) The time we have been running (1486.6) is approaching the resumption interval (1506) - increasing resumption interval to 1517
+1492.757 (0) The time we have been running (1492.8) is approaching the resumption interval (1517) - increasing resumption interval to 1523
+1501.691 (0) The time we have been running (1501.7) is approaching the resumption interval (1523) - increasing resumption interval to 1532
+1519.863 (0) The time we have been running (1519.9) is approaching the resumption interval (1532) - increasing resumption interval to 1550
+1528.815 (0) The time we have been running (1528.8) is approaching the resumption interval (1550) - increasing resumption interval to 1559
+1536.278 (0) The time we have been running (1536.3) is approaching the resumption interval (1559) - increasing resumption interval to 1567
+1536.388 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: size is now: 213.20 MB
+1536.394 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 1200 files added (on-disk size: 218339.8 KB)
+1536.398 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 1300 files added (on-disk size: 218339.8 KB)
+1536.403 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 1400 files added (on-disk size: 218339.8 KB)
+1536.408 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 1500 files added (on-disk size: 218339.8 KB)
+1536.413 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 1600 files added (on-disk size: 218339.8 KB)
+1536.417 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (76.1 MB, 1740 files batched, 501 (1650) added so far); re-opening (prior size: 218339.8 KB)
+2008.745 (0) The time we have been running (2008.7) is approaching the resumption interval (1567) - increasing resumption interval to 2039
+2015.874 (0) The time we have been running (2015.9) is approaching the resumption interval (2039) - increasing resumption interval to 2046
+2024.843 (0) The time we have been running (2024.8) is approaching the resumption interval (2046) - increasing resumption interval to 2055
+2032.225 (0) The time we have been running (2032.2) is approaching the resumption interval (2055) - increasing resumption interval to 2063
+2038.948 (0) The time we have been running (2038.9) is approaching the resumption interval (2063) - increasing resumption interval to 2069
+2044.495 (0) The time we have been running (2044.5) is approaching the resumption interval (2069) - increasing resumption interval to 2075
+2059.623 (0) The time we have been running (2059.6) is approaching the resumption interval (2075) - increasing resumption interval to 2090
+2065.609 (0) The time we have been running (2065.6) is approaching the resumption interval (2090) - increasing resumption interval to 2096
+2074.055 (0) The time we have been running (2074.1) is approaching the resumption interval (2096) - increasing resumption interval to 2105
+2087.811 (0) The time we have been running (2087.8) is approaching the resumption interval (2105) - increasing resumption interval to 2118
+2094.015 (0) The time we have been running (2094) is approaching the resumption interval (2118) - increasing resumption interval to 2125
+2099.657 (0) The time we have been running (2099.7) is approaching the resumption interval (2125) - increasing resumption interval to 2130
+2106.525 (0) The time we have been running (2106.5) is approaching the resumption interval (2130) - increasing resumption interval to 2137
+2115.439 (0) The time we have been running (2115.4) is approaching the resumption interval (2137) - increasing resumption interval to 2146
+2121.830 (0) The time we have been running (2121.8) is approaching the resumption interval (2146) - increasing resumption interval to 2152
+2130.418 (0) The time we have been running (2130.4) is approaching the resumption interval (2152) - increasing resumption interval to 2161
+2136.497 (0) The time we have been running (2136.5) is approaching the resumption interval (2161) - increasing resumption interval to 2167
+2148.740 (0) The time we have been running (2148.7) is approaching the resumption interval (2167) - increasing resumption interval to 2179
+2155.986 (0) The time we have been running (2156) is approaching the resumption interval (2179) - increasing resumption interval to 2186
+2163.739 (0) The time we have been running (2163.7) is approaching the resumption interval (2186) - increasing resumption interval to 2194
+2180.527 (0) The time we have been running (2180.5) is approaching the resumption interval (2194) - increasing resumption interval to 2211
+2188.707 (0) The time we have been running (2188.7) is approaching the resumption interval (2211) - increasing resumption interval to 2219
+2205.041 (0) The time we have been running (2205) is approaching the resumption interval (2219) - increasing resumption interval to 2236
+2214.000 (0) The time we have been running (2214) is approaching the resumption interval (2236) - increasing resumption interval to 2244
+2219.611 (0) The time we have been running (2219.6) is approaching the resumption interval (2244) - increasing resumption interval to 2250
+2226.921 (0) The time we have been running (2226.9) is approaching the resumption interval (2250) - increasing resumption interval to 2257
+2238.011 (0) The time we have been running (2238) is approaching the resumption interval (2257) - increasing resumption interval to 2269
+2238.238 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: size is now: 289.40 MB
+2238.258 (0) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 1700 files added (on-disk size: 296346.9 KB)
+2745.516 (2) Opened log file at time: Sat, 21 Sep 2019 17:57:28 +0000 on http://www.davidefiammenghi.com
+2745.523 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.16 WP: 5.2.2 PHP: 7.3.9 (cgi-fcgi, Linux lhcp2083.webapps.net 2.6.32-954.3.5.lve1.4.59.el6.x86_64 #1 SMP Thu Dec 6 05:11:00 EST 2018 x86_64) MySQL: 5.6.43-cll-lve WPLANG: it_IT Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.4M | 48.5M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+2745.629 (2) Free space on disk containing Updraft's temporary directory: 396070.8 MB
+2745.637 (2) Backup run: resumption=2, nonce=cd3f8594957f, file_nonce=cd3f8594957f begun at=1569085902 (2746s ago), job type=backup
+2745.640 (2) Scheduling a resumption (3) after 2269 seconds (1569090917) in case this run gets aborted
+2746.158 (2) Checking if we have a zip executable available
+2746.168 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+2746.173 (2) Creation of backups of directories: had begun; will resume
+2746.205 (2) Beginning creation of dump of plugins (split every: 400 MB)
+2746.329 (2) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip: this file has already been created (age: 2134 s)
+2746.747 (2) Terminate: ziuXmb5l exists with activity within the last 30 seconds (time_mod=1569088649, time_now=1569088648, diff=-1, size=214304KB). This likely means that another UpdraftPlus run is at work; so we will exit.
+2746.764 (2) Rescheduling resumption 3: moving to 900 seconds from now (1569089549)
+2746.797 (2) To decrease the likelihood of overlaps, increasing resumption interval to: 2269 + 120 = 2389
+2924.275 (0) The time we have been running (2924.3) is approaching the resumption interval (2269) - increasing resumption interval to 2955
+2929.372 (0) The time we have been running (2929.4) is approaching the resumption interval (2955) - increasing resumption interval to 2960
+2945.288 (0) The time we have been running (2945.3) is approaching the resumption interval (2960) - increasing resumption interval to 2976
+2952.326 (0) The time we have been running (2952.3) is approaching the resumption interval (2976) - increasing resumption interval to 2983
+2959.923 (0) The time we have been running (2959.9) is approaching the resumption interval (2983) - increasing resumption interval to 2990
+2976.322 (0) The time we have been running (2976.3) is approaching the resumption interval (2990) - increasing resumption interval to 3007
+2982.345 (0) The time we have been running (2982.3) is approaching the resumption interval (3007) - increasing resumption interval to 3013
+2987.689 (0) The time we have been running (2987.7) is approaching the resumption interval (3013) - increasing resumption interval to 3018
+3715.395 (3) Opened log file at time: Sat, 21 Sep 2019 18:13:38 +0000 on http://www.davidefiammenghi.com
+3715.422 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.16 WP: 5.2.2 PHP: 7.3.9 (cgi-fcgi, Linux lhcp2083.webapps.net 2.6.32-954.3.5.lve1.4.59.el6.x86_64 #1 SMP Thu Dec 6 05:11:00 EST 2018 x86_64) MySQL: 5.6.43-cll-lve WPLANG: it_IT Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.4M | 48.5M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+3715.499 (3) Free space on disk containing Updraft's temporary directory: 396281.2 MB
+3715.531 (3) Backup run: resumption=3, nonce=cd3f8594957f, file_nonce=cd3f8594957f begun at=1569085902 (3716s ago), job type=backup
+3715.543 (3) Scheduling a resumption (4) after 3018 seconds (1569092636) in case this run gets aborted
+3716.167 (3) Checking if we have a zip executable available
+3716.182 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+3716.192 (3) Creation of backups of directories: had begun; will resume
+3716.232 (3) Beginning creation of dump of plugins (split every: 400 MB)
+3716.242 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip: this file has already been created (age: 3104 s)
+3716.352 (3) Beginning creation of dump of themes (split every: 400 MB)
+3716.361 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-themes.zip: this file has already been created (age: 3080 s)
+3716.472 (3) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+3716.482 (3) Looking for candidates to backup in: /home/iv3flim9/public_html/wp-content/uploads
+3716.502 (3) finding files: 2018: adding to list (1)
+3716.518 (3) finding files: wp-file-manager-pro: adding to list (2)
+3716.527 (3) finding files: backgrounds: adding to list (3)
+3716.538 (3) finding files: 2017: adding to list (4)
+3716.547 (3) finding files: 2019: adding to list (5)
+3716.557 (3) finding files: logos: adding to list (6)
+3716.567 (3) finding files: icons: adding to list (7)
+3716.577 (3) finding files: covers: adding to list (8)
+3716.596 (3) Beginning creation of dump of uploads (split every: 400 MB)
+3716.686 (3) File exists (/home/iv3flim9/public_html/wp-content/updraft/backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1569088890, time_now=1569089619, diff=729)
+3717.504 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: Zip file already exists, with 1740 files
+3718.355 (3) Total entities for the zip file: 29 directories, 1740 files (0 skipped as non-modified), 309.9 MB
+3718.368 (3) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 100 files added (on-disk size: 317673.2 KB)
+3718.376 (3) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 200 files added (on-disk size: 317673.2 KB)
+3718.386 (3) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 300 files added (on-disk size: 317673.2 KB)
+3718.397 (3) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 400 files added (on-disk size: 317673.2 KB)
+3718.407 (3) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 500 files added (on-disk size: 317673.2 KB)
+3718.417 (3) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 600 files added (on-disk size: 317673.2 KB)
+3718.427 (3) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 700 files added (on-disk size: 317673.2 KB)
+3718.437 (3) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 800 files added (on-disk size: 317673.2 KB)
+3718.446 (3) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 900 files added (on-disk size: 317673.2 KB)
+3718.456 (3) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 1000 files added (on-disk size: 317673.2 KB)
+3718.468 (3) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 1100 files added (on-disk size: 317673.2 KB)
+3718.476 (3) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 1200 files added (on-disk size: 317673.2 KB)
+3718.486 (3) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 1300 files added (on-disk size: 317673.2 KB)
+3718.497 (3) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 1400 files added (on-disk size: 317673.2 KB)
+3718.507 (3) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 1500 files added (on-disk size: 317673.2 KB)
+3718.517 (3) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 1600 files added (on-disk size: 317673.2 KB)
+3718.527 (3) Zip: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip.tmp: 1700 files added (on-disk size: 317673.2 KB)
+4375.353 (0) Created uploads zip (0) - 317673.2 KB in 3739.1 s (85 KB/s) (sha1: 55ed6864a85200c8305bf6743c81cdc6e09ae54d, sha256: 9b8d3c87f8afff9bc7b229abc697702b9bf1e5b287c0668791409394475818e9)
+4375.674 (0) Beginning backup of other directories found in the content directory (index: 0)
+4375.680 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+4375.690 (0) Looking for candidates to backup in: /home/iv3flim9/public_html/wp-content
+4375.710 (0) finding files: plugins: skipping: this is the plugins directory
+4375.725 (0) finding files: themes: skipping: this is the themes directory
+4375.735 (0) finding files: w3tc-config: adding to list (1)
+4375.745 (0) finding files: uploads: skipping: this is the uploads directory
+4375.755 (0) finding files: index.php: adding to list (2)
+4375.765 (0) finding files: updraft: skipping: this is the updraft directory
+4375.775 (0) finding files: upgrade: skipping: excluded by options
+4375.786 (0) finding files: languages: adding to list (3)
+4376.079 (0) Total entities for the zip file: 4 directories, 53 files (0 skipped as non-modified), 4.9 MB
+4393.738 (0) The time we have been running (4393.7) is approaching the resumption interval (3018) - increasing resumption interval to 4424
+4399.506 (0) The time we have been running (4399.5) is approaching the resumption interval (4424) - increasing resumption interval to 4430
+4405.376 (0) The time we have been running (4405.4) is approaching the resumption interval (4430) - increasing resumption interval to 4436
+4405.383 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-others.zip.tmp: size is now: 1.30 MB
+4405.404 (0) Created others zip (0) - 1329.8 KB in 29.4 s (45.2 KB/s) (sha1: 3e95246148368b6b47ea6e2a9abdda63d9a77a66, sha256: b4a1f24a67c32ddeea0734732d5956a21b75db92b3560870e7505ad66bab6542)
+4405.498 (0) Saving backup status to database (elements: 8)
+4405.500 (0) Beginning creation of database dump (WordPress DB)
+4405.518 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+4406.336 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1218 bytes total)
+4406.344 (0) Working binary mysqldump found: /usr/bin/mysqldump
+4406.380 (0) Table wp_options: Total expected rows (approximate): 395
+4407.873 (0) Table wp_options: Total rows added: 388 in 0.19 seconds
+4407.951 (0) Table wp_options: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_options.table.gz - 128.2 KB)
+4407.970 (0) The time we have been running (4408) is approaching the resumption interval (4436) - increasing resumption interval to 4438
+4407.981 (0) Table wp_users: Total expected rows (approximate): 2
+4407.990 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+4408.016 (0) Table wp_users: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_users.table.gz - 0.6 KB)
+4408.031 (0) The time we have been running (4408) is approaching the resumption interval (4438) - increasing resumption interval to 4439
+4408.041 (0) Table wp_usermeta: Total expected rows (approximate): 65
+4408.051 (0) Table wp_usermeta: Total rows added: 65 in 0.00 seconds
+4408.076 (0) Table wp_usermeta: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_usermeta.table.gz - 2.5 KB)
+4408.092 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+4408.100 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+4408.126 (0) Table wp_commentmeta: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_commentmeta.table.gz - 0.4 KB)
+4408.143 (0) Table wp_comments: Total expected rows (approximate): 0
+4408.150 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+4408.176 (0) Table wp_comments: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_comments.table.gz - 0.5 KB)
+4408.191 (0) Table wp_links: Total expected rows (approximate): 0
+4408.200 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+4408.226 (0) Table wp_links: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_links.table.gz - 0.4 KB)
+4408.240 (0) Table wp_postmeta: Total expected rows (approximate): 4878
+4408.338 (0) Table wp_postmeta: Total rows added: 4878 in 0.09 seconds
+4408.416 (0) Table wp_postmeta: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_postmeta.table.gz - 78 KB)
+4408.430 (0) Table wp_posts: Total expected rows (approximate): 1872
+4408.924 (0) Table wp_posts: Total rows added: 1872 in 0.49 seconds
+4408.997 (0) Table wp_posts: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_posts.table.gz - 307.4 KB)
+4409.013 (0) The time we have been running (4409) is approaching the resumption interval (4439) - increasing resumption interval to 4440
+4409.022 (0) Table wp_term_relationships: Total expected rows (approximate): 1626
+4409.035 (0) Table wp_term_relationships: Total rows added: 1626 in 0.01 seconds
+4409.067 (0) Table wp_term_relationships: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_term_relationships.table.gz - 5.3 KB)
+4409.084 (0) Table wp_term_taxonomy: Total expected rows (approximate): 284
+4409.094 (0) Table wp_term_taxonomy: Total rows added: 284 in 0.01 seconds
+4409.127 (0) Table wp_term_taxonomy: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_term_taxonomy.table.gz - 4.4 KB)
+4409.145 (0) Table wp_termmeta: Total expected rows (approximate): 20
+4409.153 (0) Table wp_termmeta: Total rows added: 20 in 0.00 seconds
+4409.178 (0) Table wp_termmeta: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_termmeta.table.gz - 0.5 KB)
+4409.194 (0) Table wp_terms: Total expected rows (approximate): 284
+4409.203 (0) Table wp_terms: Total rows added: 284 in 0.00 seconds
+4409.228 (0) Table wp_terms: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_terms.table.gz - 3.9 KB)
+4409.242 (0) Table wp_mgmlp_folders: Total expected rows (approximate): 31
+4409.252 (0) Table wp_mgmlp_folders: Total rows added: 31 in 0.00 seconds
+4409.278 (0) Table wp_mgmlp_folders: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_mgmlp_folders.table.gz - 0.4 KB)
+4409.292 (0) Table wp_wpfm_backup: Total expected rows (approximate): 0
+4409.304 (0) Table wp_wpfm_backup: Total rows added: 0 in 0.00 seconds
+4409.329 (0) Table wp_wpfm_backup: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_wpfm_backup.table.gz - 0.3 KB)
+4409.344 (0) Table wp_wpmfs_queue: Total expected rows (approximate): 44
+4409.354 (0) Table wp_wpmfs_queue: Total rows added: 46 in 0.00 seconds
+4409.380 (0) Table wp_wpmfs_queue: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_wpmfs_queue.table.gz - 1.4 KB)
+4409.395 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_options.table.gz (1/15): adding to final database dump
+4409.534 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_users.table.gz (2/15): adding to final database dump
+4409.543 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_usermeta.table.gz (3/15): adding to final database dump
+4409.553 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_commentmeta.table.gz (4/15): adding to final database dump
+4409.563 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_comments.table.gz (5/15): adding to final database dump
+4409.573 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_links.table.gz (6/15): adding to final database dump
+4409.583 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_postmeta.table.gz (7/15): adding to final database dump
+4409.708 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_posts.table.gz (8/15): adding to final database dump
+4411.348 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_term_relationships.table.gz (9/15): adding to final database dump
+4411.361 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_term_taxonomy.table.gz (10/15): adding to final database dump
+4411.368 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_termmeta.table.gz (11/15): adding to final database dump
+4411.382 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_terms.table.gz (12/15): adding to final database dump
+4411.392 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_mgmlp_folders.table.gz (13/15): adding to final database dump
+4411.401 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_wpfm_backup.table.gz (14/15): adding to final database dump
+4411.411 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_wpmfs_queue.table.gz (15/15): adding to final database dump
+4411.426 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db.gz: finished writing out complete database file (512 KB)
+4411.496 (0) Total database tables backed up: 15 (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db.gz, size: 545654, sha1: 46426a390dbc5d23daf0144abea0b31cfe4b6851, sha256: 51e7fd6ff53f291c12e683025909ee5c4fdde1fc7b6f0d57e3cc7b7b429fa68d)
+4411.504 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4411.510 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4411.520 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4411.530 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-others.zip: others: This file has not yet been successfully uploaded: will queue
+4411.541 (0) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db.gz: db: This file has not yet been successfully uploaded: will queue
+4411.551 (0) Saving backup history. Total backup size: 339.9 MB
+4411.563 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+4411.572 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+4411.580 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-af62659ee1308a9773cedd80f7f9d275)
+4415.862 (0) Google Drive: quota usage: used=2325.5 MB, total=15360 MB, available=13034.5 MB
+4415.865 (0) Google Drive: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip: Attempting to upload to Google Drive (into folder id: 1TWEXH87i5GuxfBkowZpmbh0Pac6FdaD4)
+4420.177 (0) The time we have been running (4420.2) is approaching the resumption interval (4440) - increasing resumption interval to 4451
+4420.184 (0) Googledrive chunked upload: 4 % uploaded (1048576)
+4424.045 (0) The time we have been running (4424) is approaching the resumption interval (4451) - increasing resumption interval to 4455
+4424.056 (0) Googledrive chunked upload: 7.9 % uploaded (2097152)
+4487.813 (0) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: /home/iv3flim9/public_html/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+4487.827 (0) An error condition has occurred for the first time during this job
+4488.079 (0) Google Drive: quota usage: used=2325.5 MB, total=15360 MB, available=13034.5 MB
+4488.087 (0) Google Drive: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-themes.zip: Attempting to upload to Google Drive (into folder id: 1TWEXH87i5GuxfBkowZpmbh0Pac6FdaD4)
+4492.413 (0) The time we have been running (4492.4) is approaching the resumption interval (4455) - increasing resumption interval to 4523
+4492.422 (0) Googledrive chunked upload: 39.5 % uploaded (1048576)
+4496.347 (0) The time we have been running (4496.3) is approaching the resumption interval (4523) - increasing resumption interval to 4527
+4496.354 (0) Googledrive chunked upload: 78.9 % uploaded (2097152)
+4500.631 (0) The time we have been running (4500.6) is approaching the resumption interval (4527) - increasing resumption interval to 4531
+4500.635 (0) Googledrive chunked upload: 100 % uploaded (2097152)
+4500.648 (0) Google Drive: OK: Archive backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-themes.zip uploaded in 12.55 seconds
+4500.656 (0) Recording as successfully uploaded: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-themes.zip
+4500.668 (0) Deleting local file: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-themes.zip: OK
+4500.921 (0) Google Drive: quota usage: used=2328.1 MB, total=15360 MB, available=13031.9 MB
+4500.931 (0) Google Drive: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip: Attempting to upload to Google Drive (into folder id: 1TWEXH87i5GuxfBkowZpmbh0Pac6FdaD4)
+4505.206 (0) The time we have been running (4505.2) is approaching the resumption interval (4531) - increasing resumption interval to 4536
+4505.211 (0) Googledrive chunked upload: 0.3 % uploaded (1048576)
+4509.040 (0) The time we have been running (4509) is approaching the resumption interval (4536) - increasing resumption interval to 4540
+4509.049 (0) Googledrive chunked upload: 0.6 % uploaded (2097152)
+4512.920 (0) The time we have been running (4512.9) is approaching the resumption interval (4540) - increasing resumption interval to 4543
+4512.926 (0) Googledrive chunked upload: 1 % uploaded (3145728)
+4516.845 (0) The time we have been running (4516.8) is approaching the resumption interval (4543) - increasing resumption interval to 4547
+4516.853 (0) Googledrive chunked upload: 1.3 % uploaded (4194304)
+4522.644 (0) The time we have been running (4522.6) is approaching the resumption interval (4547) - increasing resumption interval to 4553
+4522.654 (0) Googledrive chunked upload: 1.6 % uploaded (5242880)
+4526.535 (0) The time we have been running (4526.5) is approaching the resumption interval (4553) - increasing resumption interval to 4557
+4526.544 (0) Googledrive chunked upload: 1.9 % uploaded (6291456)
+4530.463 (0) The time we have been running (4530.5) is approaching the resumption interval (4557) - increasing resumption interval to 4561
+4530.473 (0) Googledrive chunked upload: 2.3 % uploaded (7340032)
+4534.434 (0) The time we have been running (4534.4) is approaching the resumption interval (4561) - increasing resumption interval to 4565
+4534.440 (0) Googledrive chunked upload: 2.6 % uploaded (8388608)
+4538.320 (0) The time we have been running (4538.3) is approaching the resumption interval (4565) - increasing resumption interval to 4569
+4538.330 (0) Googledrive chunked upload: 2.9 % uploaded (9437184)
+4542.237 (0) The time we have been running (4542.2) is approaching the resumption interval (4569) - increasing resumption interval to 4573
+4542.242 (0) Googledrive chunked upload: 3.2 % uploaded (10485760)
+4546.117 (0) The time we have been running (4546.1) is approaching the resumption interval (4573) - increasing resumption interval to 4577
+4546.124 (0) Googledrive chunked upload: 3.5 % uploaded (11534336)
+4550.099 (0) The time we have been running (4550.1) is approaching the resumption interval (4577) - increasing resumption interval to 4581
+4550.112 (0) Googledrive chunked upload: 3.9 % uploaded (12582912)
+4554.038 (0) The time we have been running (4554) is approaching the resumption interval (4581) - increasing resumption interval to 4585
+4554.040 (0) Googledrive chunked upload: 4.2 % uploaded (13631488)
+4557.952 (0) The time we have been running (4557.9) is approaching the resumption interval (4585) - increasing resumption interval to 4588
+4557.959 (0) Googledrive chunked upload: 4.5 % uploaded (14680064)
+4561.823 (0) The time we have been running (4561.8) is approaching the resumption interval (4588) - increasing resumption interval to 4592
+4561.833 (0) Googledrive chunked upload: 4.8 % uploaded (15728640)
+4565.731 (0) The time we have been running (4565.7) is approaching the resumption interval (4592) - increasing resumption interval to 4596
+4565.744 (0) Googledrive chunked upload: 5.2 % uploaded (16777216)
+4569.624 (0) The time we have been running (4569.6) is approaching the resumption interval (4596) - increasing resumption interval to 4600
+4569.632 (0) Googledrive chunked upload: 5.5 % uploaded (17825792)
+4573.535 (0) The time we have been running (4573.5) is approaching the resumption interval (4600) - increasing resumption interval to 4604
+4573.543 (0) Googledrive chunked upload: 5.8 % uploaded (18874368)
+4577.441 (0) The time we have been running (4577.4) is approaching the resumption interval (4604) - increasing resumption interval to 4608
+4577.451 (0) Googledrive chunked upload: 6.1 % uploaded (19922944)
+4581.319 (0) The time we have been running (4581.3) is approaching the resumption interval (4608) - increasing resumption interval to 4612
+4581.331 (0) Googledrive chunked upload: 6.4 % uploaded (20971520)
+4585.189 (0) The time we have been running (4585.2) is approaching the resumption interval (4612) - increasing resumption interval to 4616
+4585.192 (0) Googledrive chunked upload: 6.8 % uploaded (22020096)
+4589.111 (0) The time we have been running (4589.1) is approaching the resumption interval (4616) - increasing resumption interval to 4620
+4589.115 (0) Googledrive chunked upload: 7.1 % uploaded (23068672)
+4593.010 (0) The time we have been running (4593) is approaching the resumption interval (4620) - increasing resumption interval to 4624
+4593.020 (0) Googledrive chunked upload: 7.4 % uploaded (24117248)
+4596.989 (0) The time we have been running (4597) is approaching the resumption interval (4624) - increasing resumption interval to 4627
+4596.999 (0) Googledrive chunked upload: 7.7 % uploaded (25165824)
+4600.896 (0) The time we have been running (4600.9) is approaching the resumption interval (4627) - increasing resumption interval to 4631
+4600.904 (0) Googledrive chunked upload: 8.1 % uploaded (26214400)
+4604.808 (0) The time we have been running (4604.8) is approaching the resumption interval (4631) - increasing resumption interval to 4635
+4604.819 (0) Googledrive chunked upload: 8.4 % uploaded (27262976)
+4608.710 (0) The time we have been running (4608.7) is approaching the resumption interval (4635) - increasing resumption interval to 4639
+4608.715 (0) Googledrive chunked upload: 8.7 % uploaded (28311552)
+4612.642 (0) The time we have been running (4612.6) is approaching the resumption interval (4639) - increasing resumption interval to 4643
+4612.647 (0) Googledrive chunked upload: 9 % uploaded (29360128)
+4616.606 (0) The time we have been running (4616.6) is approaching the resumption interval (4643) - increasing resumption interval to 4647
+4616.610 (0) Googledrive chunked upload: 9.3 % uploaded (30408704)
+4620.525 (0) The time we have been running (4620.5) is approaching the resumption interval (4647) - increasing resumption interval to 4651
+4620.529 (0) Googledrive chunked upload: 9.7 % uploaded (31457280)
+4624.440 (0) The time we have been running (4624.4) is approaching the resumption interval (4651) - increasing resumption interval to 4655
+4624.449 (0) Googledrive chunked upload: 10 % uploaded (32505856)
+4628.382 (0) The time we have been running (4628.4) is approaching the resumption interval (4655) - increasing resumption interval to 4659
+4628.390 (0) Googledrive chunked upload: 10.3 % uploaded (33554432)
+4632.320 (0) The time we have been running (4632.3) is approaching the resumption interval (4659) - increasing resumption interval to 4663
+4632.325 (0) Googledrive chunked upload: 10.6 % uploaded (34603008)
+4636.233 (0) The time we have been running (4636.2) is approaching the resumption interval (4663) - increasing resumption interval to 4667
+4636.243 (0) Googledrive chunked upload: 11 % uploaded (35651584)
+4640.168 (0) The time we have been running (4640.2) is approaching the resumption interval (4667) - increasing resumption interval to 4671
+4640.174 (0) Googledrive chunked upload: 11.3 % uploaded (36700160)
+4644.076 (0) The time we have been running (4644.1) is approaching the resumption interval (4671) - increasing resumption interval to 4675
+4644.081 (0) Googledrive chunked upload: 11.6 % uploaded (37748736)
+4648.055 (0) The time we have been running (4648.1) is approaching the resumption interval (4675) - increasing resumption interval to 4679
+4648.063 (0) Googledrive chunked upload: 11.9 % uploaded (38797312)
+4651.960 (0) The time we have been running (4652) is approaching the resumption interval (4679) - increasing resumption interval to 4682
+4651.963 (0) Googledrive chunked upload: 12.2 % uploaded (39845888)
+4655.883 (0) The time we have been running (4655.9) is approaching the resumption interval (4682) - increasing resumption interval to 4686
+4655.892 (0) Googledrive chunked upload: 12.6 % uploaded (40894464)
+4659.834 (0) The time we have been running (4659.8) is approaching the resumption interval (4686) - increasing resumption interval to 4690
+4659.842 (0) Googledrive chunked upload: 12.9 % uploaded (41943040)
+4663.795 (0) The time we have been running (4663.8) is approaching the resumption interval (4690) - increasing resumption interval to 4694
+4663.804 (0) Googledrive chunked upload: 13.2 % uploaded (42991616)
+4667.713 (0) The time we have been running (4667.7) is approaching the resumption interval (4694) - increasing resumption interval to 4698
+4667.723 (0) Googledrive chunked upload: 13.5 % uploaded (44040192)
+4671.599 (0) The time we have been running (4671.6) is approaching the resumption interval (4698) - increasing resumption interval to 4702
+4671.611 (0) Googledrive chunked upload: 13.9 % uploaded (45088768)
+4675.529 (0) The time we have been running (4675.5) is approaching the resumption interval (4702) - increasing resumption interval to 4706
+4675.541 (0) Googledrive chunked upload: 14.2 % uploaded (46137344)
+4679.521 (0) The time we have been running (4679.5) is approaching the resumption interval (4706) - increasing resumption interval to 4710
+4679.525 (0) Googledrive chunked upload: 14.5 % uploaded (47185920)
+4683.418 (0) The time we have been running (4683.4) is approaching the resumption interval (4710) - increasing resumption interval to 4714
+4683.426 (0) Googledrive chunked upload: 14.8 % uploaded (48234496)
+4687.402 (0) The time we have been running (4687.4) is approaching the resumption interval (4714) - increasing resumption interval to 4718
+4687.413 (0) Googledrive chunked upload: 15.2 % uploaded (49283072)
+4691.309 (0) The time we have been running (4691.3) is approaching the resumption interval (4718) - increasing resumption interval to 4722
+4691.321 (0) Googledrive chunked upload: 15.5 % uploaded (50331648)
+4695.285 (0) The time we have been running (4695.3) is approaching the resumption interval (4722) - increasing resumption interval to 4726
+4695.296 (0) Googledrive chunked upload: 15.8 % uploaded (51380224)
+4699.236 (0) The time we have been running (4699.2) is approaching the resumption interval (4726) - increasing resumption interval to 4730
+4699.243 (0) Googledrive chunked upload: 16.1 % uploaded (52428800)
+4703.147 (0) The time we have been running (4703.1) is approaching the resumption interval (4730) - increasing resumption interval to 4734
+4703.160 (0) Googledrive chunked upload: 16.4 % uploaded (53477376)
+4707.257 (0) The time we have been running (4707.3) is approaching the resumption interval (4734) - increasing resumption interval to 4738
+4707.268 (0) Googledrive chunked upload: 16.8 % uploaded (54525952)
+4711.196 (0) The time we have been running (4711.2) is approaching the resumption interval (4738) - increasing resumption interval to 4742
+4711.200 (0) Googledrive chunked upload: 17.1 % uploaded (55574528)
+4715.137 (0) The time we have been running (4715.1) is approaching the resumption interval (4742) - increasing resumption interval to 4746
+4715.148 (0) Googledrive chunked upload: 17.4 % uploaded (56623104)
+4719.068 (0) The time we have been running (4719.1) is approaching the resumption interval (4746) - increasing resumption interval to 4750
+4719.075 (0) Googledrive chunked upload: 17.7 % uploaded (57671680)
+4722.907 (0) The time we have been running (4722.9) is approaching the resumption interval (4750) - increasing resumption interval to 4753
+4722.917 (0) Googledrive chunked upload: 18.1 % uploaded (58720256)
+4726.850 (0) The time we have been running (4726.8) is approaching the resumption interval (4753) - increasing resumption interval to 4757
+4726.854 (0) Googledrive chunked upload: 18.4 % uploaded (59768832)
+4730.792 (0) The time we have been running (4730.8) is approaching the resumption interval (4757) - increasing resumption interval to 4761
+4730.800 (0) Googledrive chunked upload: 18.7 % uploaded (60817408)
+4734.714 (0) The time we have been running (4734.7) is approaching the resumption interval (4761) - increasing resumption interval to 4765
+4734.720 (0) Googledrive chunked upload: 19 % uploaded (61865984)
+4738.645 (0) The time we have been running (4738.6) is approaching the resumption interval (4765) - increasing resumption interval to 4769
+4738.650 (0) Googledrive chunked upload: 19.3 % uploaded (62914560)
+4742.561 (0) The time we have been running (4742.6) is approaching the resumption interval (4769) - increasing resumption interval to 4773
+4742.564 (0) Googledrive chunked upload: 19.7 % uploaded (63963136)
+4746.592 (0) The time we have been running (4746.6) is approaching the resumption interval (4773) - increasing resumption interval to 4777
+4746.604 (0) Googledrive chunked upload: 20 % uploaded (65011712)
+4750.518 (0) The time we have been running (4750.5) is approaching the resumption interval (4777) - increasing resumption interval to 4781
+4750.524 (0) Googledrive chunked upload: 20.3 % uploaded (66060288)
+4754.452 (0) The time we have been running (4754.4) is approaching the resumption interval (4781) - increasing resumption interval to 4785
+4754.459 (0) Googledrive chunked upload: 20.6 % uploaded (67108864)
+4758.377 (0) The time we have been running (4758.4) is approaching the resumption interval (4785) - increasing resumption interval to 4789
+4758.390 (0) Googledrive chunked upload: 21 % uploaded (68157440)
+4762.323 (0) The time we have been running (4762.3) is approaching the resumption interval (4789) - increasing resumption interval to 4793
+4762.327 (0) Googledrive chunked upload: 21.3 % uploaded (69206016)
+4766.280 (0) The time we have been running (4766.3) is approaching the resumption interval (4793) - increasing resumption interval to 4797
+4766.290 (0) Googledrive chunked upload: 21.6 % uploaded (70254592)
+4770.222 (0) The time we have been running (4770.2) is approaching the resumption interval (4797) - increasing resumption interval to 4801
+4770.225 (0) Googledrive chunked upload: 21.9 % uploaded (71303168)
+4774.113 (0) The time we have been running (4774.1) is approaching the resumption interval (4801) - increasing resumption interval to 4805
+4774.116 (0) Googledrive chunked upload: 22.2 % uploaded (72351744)
+4778.036 (0) The time we have been running (4778) is approaching the resumption interval (4805) - increasing resumption interval to 4809
+4778.049 (0) Googledrive chunked upload: 22.6 % uploaded (73400320)
+4782.007 (0) The time we have been running (4782) is approaching the resumption interval (4809) - increasing resumption interval to 4813
+4782.017 (0) Googledrive chunked upload: 22.9 % uploaded (74448896)
+4785.929 (0) The time we have been running (4785.9) is approaching the resumption interval (4813) - increasing resumption interval to 4816
+4785.942 (0) Googledrive chunked upload: 23.2 % uploaded (75497472)
+4789.872 (0) The time we have been running (4789.9) is approaching the resumption interval (4816) - increasing resumption interval to 4820
+4789.882 (0) Googledrive chunked upload: 23.5 % uploaded (76546048)
+4793.833 (0) The time we have been running (4793.8) is approaching the resumption interval (4820) - increasing resumption interval to 4824
+4793.842 (0) Googledrive chunked upload: 23.9 % uploaded (77594624)
+4796.721 (0) The time we have been running (4796.7) is approaching the resumption interval (4824) - increasing resumption interval to 4827
+4796.730 (0) Googledrive chunked upload: 24.2 % uploaded (78643200)
+4800.635 (0) The time we have been running (4800.6) is approaching the resumption interval (4827) - increasing resumption interval to 4831
+4800.643 (0) Googledrive chunked upload: 24.5 % uploaded (79691776)
+4804.579 (0) The time we have been running (4804.6) is approaching the resumption interval (4831) - increasing resumption interval to 4835
+4804.584 (0) Googledrive chunked upload: 24.8 % uploaded (80740352)
+4808.516 (0) The time we have been running (4808.5) is approaching the resumption interval (4835) - increasing resumption interval to 4839
+4808.527 (0) Googledrive chunked upload: 25.1 % uploaded (81788928)
+4812.458 (0) The time we have been running (4812.5) is approaching the resumption interval (4839) - increasing resumption interval to 4843
+4812.466 (0) Googledrive chunked upload: 25.5 % uploaded (82837504)
+4816.392 (0) The time we have been running (4816.4) is approaching the resumption interval (4843) - increasing resumption interval to 4847
+4816.403 (0) Googledrive chunked upload: 25.8 % uploaded (83886080)
+4820.328 (0) The time we have been running (4820.3) is approaching the resumption interval (4847) - increasing resumption interval to 4851
+4820.333 (0) Googledrive chunked upload: 26.1 % uploaded (84934656)
+4824.251 (0) The time we have been running (4824.2) is approaching the resumption interval (4851) - increasing resumption interval to 4855
+4824.262 (0) Googledrive chunked upload: 26.4 % uploaded (85983232)
+4828.359 (0) The time we have been running (4828.4) is approaching the resumption interval (4855) - increasing resumption interval to 4859
+4828.366 (0) Googledrive chunked upload: 26.8 % uploaded (87031808)
+4832.286 (0) The time we have been running (4832.3) is approaching the resumption interval (4859) - increasing resumption interval to 4863
+4832.291 (0) Googledrive chunked upload: 27.1 % uploaded (88080384)
+4836.241 (0) The time we have been running (4836.2) is approaching the resumption interval (4863) - increasing resumption interval to 4867
+4836.249 (0) Googledrive chunked upload: 27.4 % uploaded (89128960)
+4839.997 (0) The time we have been running (4840) is approaching the resumption interval (4867) - increasing resumption interval to 4870
+4840.137 (0) Googledrive chunked upload: 27.7 % uploaded (90177536)
+4843.328 (0) The time we have been running (4843.3) is approaching the resumption interval (4870) - increasing resumption interval to 4874
+4843.330 (0) Googledrive chunked upload: 28 % uploaded (91226112)
+4846.048 (0) The time we have been running (4846) is approaching the resumption interval (4874) - increasing resumption interval to 4877
+4846.052 (0) Googledrive chunked upload: 28.4 % uploaded (92274688)
+4848.819 (0) The time we have been running (4848.8) is approaching the resumption interval (4877) - increasing resumption interval to 4879
+4848.828 (0) Googledrive chunked upload: 28.7 % uploaded (93323264)
+4851.550 (0) The time we have been running (4851.5) is approaching the resumption interval (4879) - increasing resumption interval to 4882
+4851.551 (0) Googledrive chunked upload: 29 % uploaded (94371840)
+4854.297 (0) The time we have been running (4854.3) is approaching the resumption interval (4882) - increasing resumption interval to 4885
+4854.303 (0) Googledrive chunked upload: 29.3 % uploaded (95420416)
+4857.023 (0) The time we have been running (4857) is approaching the resumption interval (4885) - increasing resumption interval to 4888
+4857.136 (0) Googledrive chunked upload: 29.7 % uploaded (96468992)
+4860.357 (0) The time we have been running (4860.4) is approaching the resumption interval (4888) - increasing resumption interval to 4891
+4860.366 (0) Googledrive chunked upload: 30 % uploaded (97517568)
+4864.030 (0) The time we have been running (4864) is approaching the resumption interval (4891) - increasing resumption interval to 4895
+4864.146 (0) Googledrive chunked upload: 30.3 % uploaded (98566144)
+4867.270 (0) The time we have been running (4867.3) is approaching the resumption interval (4895) - increasing resumption interval to 4898
+4867.274 (0) Googledrive chunked upload: 30.6 % uploaded (99614720)
+4870.003 (0) The time we have been running (4870) is approaching the resumption interval (4898) - increasing resumption interval to 4901
+4870.009 (0) Googledrive chunked upload: 30.9 % uploaded (100663296)
+4872.732 (0) The time we have been running (4872.7) is approaching the resumption interval (4901) - increasing resumption interval to 4903
+4872.736 (0) Googledrive chunked upload: 31.3 % uploaded (101711872)
+4875.509 (0) The time we have been running (4875.5) is approaching the resumption interval (4903) - increasing resumption interval to 4906
+4875.515 (0) Googledrive chunked upload: 31.6 % uploaded (102760448)
+4878.215 (0) The time we have been running (4878.2) is approaching the resumption interval (4906) - increasing resumption interval to 4909
+4878.225 (0) Googledrive chunked upload: 31.9 % uploaded (103809024)
+4880.958 (0) The time we have been running (4881) is approaching the resumption interval (4909) - increasing resumption interval to 4911
+4881.146 (0) Googledrive chunked upload: 32.2 % uploaded (104857600)
+4884.319 (0) The time we have been running (4884.3) is approaching the resumption interval (4911) - increasing resumption interval to 4915
+4884.324 (0) Googledrive chunked upload: 32.6 % uploaded (105906176)
+4947.739 (0) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: /home/iv3flim9/public_html/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+4948.096 (0) Google Drive: quota usage: used=1960.3 MB, total=15360 MB, available=13399.7 MB
+4948.117 (0) Google Drive: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-others.zip: Attempting to upload to Google Drive (into folder id: 1TWEXH87i5GuxfBkowZpmbh0Pac6FdaD4)
+4949.744 (0) The time we have been running (4949.7) is approaching the resumption interval (4915) - increasing resumption interval to 4980
+4949.957 (0) Googledrive chunked upload: 77 % uploaded (1048576)
+4951.830 (0) The time we have been running (4951.8) is approaching the resumption interval (4980) - increasing resumption interval to 4982
+4951.836 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+4951.842 (0) Google Drive: OK: Archive backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-others.zip uploaded in 3.6 seconds
+4951.845 (0) Recording as successfully uploaded: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-others.zip
+4951.851 (0) Deleting local file: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-others.zip: OK
+4952.118 (0) Google Drive: quota usage: used=1961.6 MB, total=15360 MB, available=13398.4 MB
+4952.148 (0) Google Drive: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db.gz: Attempting to upload to Google Drive (into folder id: 1TWEXH87i5GuxfBkowZpmbh0Pac6FdaD4)
+4959.625 (0) The time we have been running (4959.6) is approaching the resumption interval (4982) - increasing resumption interval to 4990
+4959.642 (0) Googledrive chunked upload: 100 % uploaded
+4959.775 (0) Google Drive: OK: Archive backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db.gz uploaded in 7.5 seconds
+4960.014 (0) Recording as successfully uploaded: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db.gz
+4960.141 (0) Deleting local file: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db.gz: OK
+4960.392 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+4960.516 (0) Number of backup sets in history: 2; groups (db): 1
+4960.766 (0) Examining (for databases) backup set with group_id=0, nonce=cd3f8594957f, datestamp=1569085902 (Sep 21 2019 17:11:42)
+4960.890 (0) This backup set is the backup set just made, so will not be deleted.
+4961.140 (0) Examining (for databases) backup set with group_id=0, nonce=3b9f6954abbd, datestamp=1569084046 (Sep 21 2019 16:40:46)
+4961.263 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+4961.264 (0) Number of backup sets in history: 2; groups (files): 1
+4961.267 (0) Examining (for files) backup set with nonce=cd3f8594957f, datestamp=1569085902 (Sep 21 2019 17:11:42)
+4961.271 (0) This backup set is the backup set just made, so will not be deleted.
+4961.272 (0) This backup set is the backup set just made, so will not be deleted.
+4961.276 (0) This backup set is the backup set just made, so will not be deleted.
+4961.281 (0) This backup set is the backup set just made, so will not be deleted.
+4961.286 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+4961.292 (0) Examining (for files) backup set with nonce=3b9f6954abbd, datestamp=1569084046 (Sep 21 2019 16:40:46)
+4961.296 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+4961.301 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+4961.312 (0) Resume backup (cd3f8594957f, 0): finish run
+4961.320 (0) Decremented the semaphore (fd) by 1
+4961.323 (0) Semaphore (fd, wp_options) still locked (0)
+4961.328 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4961.335 (0) Rescheduling resumption 1: moving to 100 seconds from now (1569090963)
+4961.339 (0) The backup has not finished; a resumption is scheduled
+5153.808 (3) Created uploads zip (0) - 317673.2 KB in 1437.1 s (221.1 KB/s) (sha1: 55ed6864a85200c8305bf6743c81cdc6e09ae54d, sha256: 9b8d3c87f8afff9bc7b229abc697702b9bf1e5b287c0668791409394475818e9)
+5153.811 (3) Beginning backup of other directories found in the content directory (index: 0)
+5153.811 (3) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+5153.812 (3) Looking for candidates to backup in: /home/iv3flim9/public_html/wp-content
+5153.813 (3) finding files: plugins: skipping: this is the plugins directory
+5153.814 (3) finding files: themes: skipping: this is the themes directory
+5153.814 (3) finding files: w3tc-config: adding to list (1)
+5153.815 (3) finding files: uploads: skipping: this is the uploads directory
+5153.815 (3) finding files: index.php: adding to list (2)
+5153.815 (3) finding files: updraft: skipping: this is the updraft directory
+5153.816 (3) finding files: upgrade: skipping: excluded by options
+5153.816 (3) finding files: languages: adding to list (3)
+5153.960 (3) Total entities for the zip file: 4 directories, 53 files (0 skipped as non-modified), 4.9 MB
+5160.289 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-others.zip.tmp: size is now: 1.30 MB
+5160.310 (3) Created others zip (0) - 1329.8 KB in 6.4 s (208.8 KB/s) (sha1: 3e95246148368b6b47ea6e2a9abdda63d9a77a66, sha256: b4a1f24a67c32ddeea0734732d5956a21b75db92b3560870e7505ad66bab6542)
+5160.314 (3) Saving backup status to database (elements: 8)
+5160.324 (3) Resuming creation of database dump (WordPress DB)
+5160.326 (3) Testing potential mysqldump binary: /usr/bin/mysqldump
+5160.576 (3) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1218 bytes total)
+5160.580 (3) Binary mysqldump: error (code: 5)
+5160.592 (3) Table wp_options: Total expected rows (approximate): 395
+5160.626 (3) Table wp_options: Total rows added: 388 in 0.03 seconds
+5160.628 (3) Table wp_options: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_options.table.gz - 127.3 KB)
+5160.631 (3) Table wp_users: Total expected rows (approximate): 2
+5160.634 (3) Table wp_users: Total rows added: 2 in 0.00 seconds
+5160.635 (3) Table wp_users: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_users.table.gz - 0.6 KB)
+5160.637 (3) Table wp_usermeta: Total expected rows (approximate): 65
+5160.640 (3) Table wp_usermeta: Total rows added: 65 in 0.00 seconds
+5160.641 (3) Table wp_usermeta: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_usermeta.table.gz - 2.5 KB)
+5160.643 (3) Table wp_commentmeta: Total expected rows (approximate): 0
+5160.646 (3) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+5160.646 (3) Table wp_commentmeta: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_commentmeta.table.gz - 0.4 KB)
+5160.648 (3) Table wp_comments: Total expected rows (approximate): 0
+5160.651 (3) Table wp_comments: Total rows added: 0 in 0.00 seconds
+5160.652 (3) Table wp_comments: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_comments.table.gz - 0.5 KB)
+5160.654 (3) Table wp_links: Total expected rows (approximate): 0
+5160.656 (3) Table wp_links: Total rows added: 0 in 0.00 seconds
+5160.657 (3) Table wp_links: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_links.table.gz - 0.4 KB)
+5160.659 (3) Table wp_postmeta: Total expected rows (approximate): 4878
+5160.691 (3) Table wp_postmeta: Total rows added: 4878 in 0.03 seconds
+5160.692 (3) Table wp_postmeta: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_postmeta.table.gz - 78 KB)
+5160.695 (3) Table wp_posts: Total expected rows (approximate): 1872
+5160.803 (3) Table wp_posts: Total rows added: 1872 in 0.11 seconds
+5160.805 (3) Table wp_posts: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_posts.table.gz - 307.4 KB)
+5160.807 (3) Table wp_term_relationships: Total expected rows (approximate): 1626
+5160.813 (3) Table wp_term_relationships: Total rows added: 1626 in 0.01 seconds
+5160.814 (3) Table wp_term_relationships: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_term_relationships.table.gz - 5.3 KB)
+5160.816 (3) Table wp_term_taxonomy: Total expected rows (approximate): 284
+5160.820 (3) Table wp_term_taxonomy: Total rows added: 284 in 0.00 seconds
+5160.821 (3) Table wp_term_taxonomy: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_term_taxonomy.table.gz - 4.4 KB)
+5160.823 (3) Table wp_termmeta: Total expected rows (approximate): 20
+5164.063 (3) Table wp_termmeta: Total rows added: 20 in 0.00 seconds
+5164.064 (3) Table wp_termmeta: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_termmeta.table.gz - 0.5 KB)
+5164.067 (3) Table wp_terms: Total expected rows (approximate): 284
+5164.072 (3) Table wp_terms: Total rows added: 284 in 0.00 seconds
+5164.073 (3) Table wp_terms: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_terms.table.gz - 3.9 KB)
+5164.075 (3) Table wp_mgmlp_folders: Total expected rows (approximate): 31
+5164.079 (3) Table wp_mgmlp_folders: Total rows added: 31 in 0.00 seconds
+5164.080 (3) Table wp_mgmlp_folders: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_mgmlp_folders.table.gz - 0.4 KB)
+5164.082 (3) Table wp_wpfm_backup: Total expected rows (approximate): 0
+5164.085 (3) Table wp_wpfm_backup: Total rows added: 0 in 0.00 seconds
+5164.086 (3) Table wp_wpfm_backup: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_wpfm_backup.table.gz - 0.3 KB)
+5164.089 (3) Table wp_wpmfs_queue: Total expected rows (approximate): 44
+5164.092 (3) Table wp_wpmfs_queue: Total rows added: 46 in 0.00 seconds
+5164.093 (3) Table wp_wpmfs_queue: finishing file (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_wpmfs_queue.table.gz - 1.4 KB)
+5164.095 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_options.table.gz (1/15): adding to final database dump
+5164.117 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_users.table.gz (2/15): adding to final database dump
+5164.118 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_usermeta.table.gz (3/15): adding to final database dump
+5164.119 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_commentmeta.table.gz (4/15): adding to final database dump
+5164.120 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_comments.table.gz (5/15): adding to final database dump
+5164.120 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_links.table.gz (6/15): adding to final database dump
+5164.121 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_postmeta.table.gz (7/15): adding to final database dump
+5164.148 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_posts.table.gz (8/15): adding to final database dump
+5164.227 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_term_relationships.table.gz (9/15): adding to final database dump
+5164.229 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_term_taxonomy.table.gz (10/15): adding to final database dump
+5164.231 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_termmeta.table.gz (11/15): adding to final database dump
+5164.232 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_terms.table.gz (12/15): adding to final database dump
+5164.233 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_mgmlp_folders.table.gz (13/15): adding to final database dump
+5164.234 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_wpfm_backup.table.gz (14/15): adding to final database dump
+5164.234 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db-table-wp_wpmfs_queue.table.gz (15/15): adding to final database dump
+5164.237 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db.gz: finished writing out complete database file (512 KB)
+5164.244 (3) Total database tables backed up: 15 (backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db.gz, size: 544792, sha1: f9a95e0b68cbde4b84baf7a43dd12cb6088119ec, sha256: ca9fa53c54eaa8f742bbb67ba68d3668d02605ec7720a74206e34ceca51c0268)
+5164.250 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+5164.250 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-themes.zip: themes: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/home/iv3flim9/public_html/wp-content/updraft/backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-themes.zip)
+5164.251 (3) Recording as successfully uploaded: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-themes.zip
+5164.253 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+5164.254 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-others.zip: others: This file has not yet been successfully uploaded: will queue
+5164.255 (3) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db.gz: db: This file has not yet been successfully uploaded: will queue
+5164.256 (3) Saving backup history. Total backup size: 339.9 MB
+5164.260 (3) Requesting upload of the files that have not yet been successfully uploaded (4)
+5164.263 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+5164.264 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-af62659ee1308a9773cedd80f7f9d275)
+5165.421 (3) Google Drive: quota usage: used=1962.1 MB, total=15360 MB, available=13397.9 MB
+5165.423 (3) Google Drive: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip: Attempting to upload to Google Drive (into folder id: 1TWEXH87i5GuxfBkowZpmbh0Pac6FdaD4)
+5165.896 (3) Googledrive chunked upload: 4 % uploaded (1048576)
+5166.049 (3) Googledrive chunked upload: 7.9 % uploaded (2097152)
+5166.195 (3) Googledrive chunked upload: 11.9 % uploaded (3145728)
+5167.160 (3) Googledrive chunked upload: 15.8 % uploaded (4194304)
+5168.218 (3) Googledrive chunked upload: 19.8 % uploaded (5242880)
+5169.221 (3) Googledrive chunked upload: 23.7 % uploaded (6291456)
+5170.224 (3) Googledrive chunked upload: 27.7 % uploaded (7340032)
+5171.246 (3) Googledrive chunked upload: 31.6 % uploaded (8388608)
+5172.239 (3) Googledrive chunked upload: 35.6 % uploaded (9437184)
+5173.130 (3) Googledrive chunked upload: 39.5 % uploaded (10485760)
+5174.126 (3) Googledrive chunked upload: 43.5 % uploaded (11534336)
+5175.116 (3) Googledrive chunked upload: 47.4 % uploaded (12582912)
+5176.119 (3) Googledrive chunked upload: 51.4 % uploaded (13631488)
+5177.142 (3) Googledrive chunked upload: 55.3 % uploaded (14680064)
+5178.163 (3) Googledrive chunked upload: 59.3 % uploaded (15728640)
+5179.143 (3) Googledrive chunked upload: 63.2 % uploaded (16777216)
+5180.113 (3) Googledrive chunked upload: 67.2 % uploaded (17825792)
+5181.124 (3) Googledrive chunked upload: 71.2 % uploaded (18874368)
+5182.186 (3) Googledrive chunked upload: 75.1 % uploaded (19922944)
+5183.160 (3) Googledrive chunked upload: 79.1 % uploaded (20971520)
+5184.143 (3) Googledrive chunked upload: 83 % uploaded (22020096)
+5185.143 (3) Googledrive chunked upload: 87 % uploaded (23068672)
+5186.165 (3) Googledrive chunked upload: 90.9 % uploaded (24117248)
+5188.389 (3) Googledrive chunked upload: 94.9 % uploaded (25165824)
+5189.599 (3) Googledrive chunked upload: 98.8 % uploaded (26214400)
+5190.846 (3) Googledrive chunked upload: 100 % uploaded (26214400)
+5190.849 (3) Google Drive: OK: Archive backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip uploaded in 25.42 seconds
+5190.849 (3) Recording as successfully uploaded: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip
+5190.854 (3) Deleting local file: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip: OK
+5191.088 (3) Google Drive: quota usage: used=1987.4 MB, total=15360 MB, available=13372.6 MB
+5191.089 (3) Google Drive: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip: Attempting to upload to Google Drive (into folder id: 1TWEXH87i5GuxfBkowZpmbh0Pac6FdaD4)
+5191.609 (3) Googledrive chunked upload: 0.3 % uploaded (1048576)
+5191.760 (3) Googledrive chunked upload: 0.6 % uploaded (2097152)
+5191.890 (3) Googledrive chunked upload: 1 % uploaded (3145728)
+5192.022 (3) Googledrive chunked upload: 1.3 % uploaded (4194304)
+5192.154 (3) Googledrive chunked upload: 1.6 % uploaded (5242880)
+5192.300 (3) Googledrive chunked upload: 1.9 % uploaded (6291456)
+5192.444 (3) Googledrive chunked upload: 2.3 % uploaded (7340032)
+5192.623 (3) Googledrive chunked upload: 2.6 % uploaded (8388608)
+5192.735 (3) Googledrive chunked upload: 2.9 % uploaded (9437184)
+5192.854 (3) Googledrive chunked upload: 3.2 % uploaded (10485760)
+5192.994 (3) Googledrive chunked upload: 3.5 % uploaded (11534336)
+5193.128 (3) Googledrive chunked upload: 3.9 % uploaded (12582912)
+5193.237 (3) Googledrive chunked upload: 4.2 % uploaded (13631488)
+5193.365 (3) Googledrive chunked upload: 4.5 % uploaded (14680064)
+5193.533 (3) Googledrive chunked upload: 4.8 % uploaded (15728640)
+5198.714 (3) Googledrive chunked upload: 5.2 % uploaded (16777216)
+5198.861 (3) Googledrive chunked upload: 5.5 % uploaded (17825792)
+5198.993 (3) Googledrive chunked upload: 5.8 % uploaded (18874368)
+5199.166 (3) Googledrive chunked upload: 6.1 % uploaded (19922944)
+5199.299 (3) Googledrive chunked upload: 6.4 % uploaded (20971520)
+5199.502 (3) Googledrive chunked upload: 6.8 % uploaded (22020096)
+5199.636 (3) Googledrive chunked upload: 7.1 % uploaded (23068672)
+5199.782 (3) Googledrive chunked upload: 7.4 % uploaded (24117248)
+5199.923 (3) Googledrive chunked upload: 7.7 % uploaded (25165824)
+5200.074 (3) Googledrive chunked upload: 8.1 % uploaded (26214400)
+5200.237 (3) Googledrive chunked upload: 8.4 % uploaded (27262976)
+5200.367 (3) Googledrive chunked upload: 8.7 % uploaded (28311552)
+5200.537 (3) Googledrive chunked upload: 9 % uploaded (29360128)
+5200.715 (3) Googledrive chunked upload: 9.3 % uploaded (30408704)
+5200.897 (3) Googledrive chunked upload: 9.7 % uploaded (31457280)
+5201.037 (3) Googledrive chunked upload: 10 % uploaded (32505856)
+5201.174 (3) Googledrive chunked upload: 10.3 % uploaded (33554432)
+5201.332 (3) Googledrive chunked upload: 10.6 % uploaded (34603008)
+5201.626 (3) Googledrive chunked upload: 11 % uploaded (35651584)
+5201.766 (3) Googledrive chunked upload: 11.3 % uploaded (36700160)
+5201.927 (3) Googledrive chunked upload: 11.6 % uploaded (37748736)
+5202.052 (3) Googledrive chunked upload: 11.9 % uploaded (38797312)
+5202.187 (3) Googledrive chunked upload: 12.2 % uploaded (39845888)
+5202.305 (3) Googledrive chunked upload: 12.6 % uploaded (40894464)
+5202.418 (3) Googledrive chunked upload: 12.9 % uploaded (41943040)
+5202.565 (3) Googledrive chunked upload: 13.2 % uploaded (42991616)
+5202.786 (3) Googledrive chunked upload: 13.5 % uploaded (44040192)
+5202.915 (3) Googledrive chunked upload: 13.9 % uploaded (45088768)
+5203.035 (3) Googledrive chunked upload: 14.2 % uploaded (46137344)
+5203.197 (3) Googledrive chunked upload: 14.5 % uploaded (47185920)
+5203.332 (3) Googledrive chunked upload: 14.8 % uploaded (48234496)
+5203.492 (3) Googledrive chunked upload: 15.2 % uploaded (49283072)
+5203.629 (3) Googledrive chunked upload: 15.5 % uploaded (50331648)
+5203.734 (3) Googledrive chunked upload: 15.8 % uploaded (51380224)
+5203.878 (3) Googledrive chunked upload: 16.1 % uploaded (52428800)
+5204.011 (3) Googledrive chunked upload: 16.4 % uploaded (53477376)
+5204.142 (3) Googledrive chunked upload: 16.8 % uploaded (54525952)
+5204.266 (3) Googledrive chunked upload: 17.1 % uploaded (55574528)
+5204.402 (3) Googledrive chunked upload: 17.4 % uploaded (56623104)
+5204.543 (3) Googledrive chunked upload: 17.7 % uploaded (57671680)
+5204.684 (3) Googledrive chunked upload: 18.1 % uploaded (58720256)
+5204.800 (3) Googledrive chunked upload: 18.4 % uploaded (59768832)
+5204.954 (3) Googledrive chunked upload: 18.7 % uploaded (60817408)
+5205.072 (3) Googledrive chunked upload: 19 % uploaded (61865984)
+5205.190 (3) Googledrive chunked upload: 19.3 % uploaded (62914560)
+5205.319 (3) Googledrive chunked upload: 19.7 % uploaded (63963136)
+5205.452 (3) Googledrive chunked upload: 20 % uploaded (65011712)
+5205.611 (3) Googledrive chunked upload: 20.3 % uploaded (66060288)
+5205.743 (3) Googledrive chunked upload: 20.6 % uploaded (67108864)
+5205.920 (3) Googledrive chunked upload: 21 % uploaded (68157440)
+5206.098 (3) Googledrive chunked upload: 21.3 % uploaded (69206016)
+5206.246 (3) Googledrive chunked upload: 21.6 % uploaded (70254592)
+5206.386 (3) Googledrive chunked upload: 21.9 % uploaded (71303168)
+5206.499 (3) Googledrive chunked upload: 22.2 % uploaded (72351744)
+5206.658 (3) Googledrive chunked upload: 22.6 % uploaded (73400320)
+5206.801 (3) Googledrive chunked upload: 22.9 % uploaded (74448896)
+5206.934 (3) Googledrive chunked upload: 23.2 % uploaded (75497472)
+5207.071 (3) Googledrive chunked upload: 23.5 % uploaded (76546048)
+5207.204 (3) Googledrive chunked upload: 23.9 % uploaded (77594624)
+5207.318 (3) Googledrive chunked upload: 24.2 % uploaded (78643200)
+5207.442 (3) Googledrive chunked upload: 24.5 % uploaded (79691776)
+5207.570 (3) Googledrive chunked upload: 24.8 % uploaded (80740352)
+5207.702 (3) Googledrive chunked upload: 25.1 % uploaded (81788928)
+5207.817 (3) Googledrive chunked upload: 25.5 % uploaded (82837504)
+5207.933 (3) Googledrive chunked upload: 25.8 % uploaded (83886080)
+5208.082 (3) Googledrive chunked upload: 26.1 % uploaded (84934656)
+5208.194 (3) Googledrive chunked upload: 26.4 % uploaded (85983232)
+5208.344 (3) Googledrive chunked upload: 26.8 % uploaded (87031808)
+5208.467 (3) Googledrive chunked upload: 27.1 % uploaded (88080384)
+5208.610 (3) Googledrive chunked upload: 27.4 % uploaded (89128960)
+5208.729 (3) Googledrive chunked upload: 27.7 % uploaded (90177536)
+5208.854 (3) Googledrive chunked upload: 28 % uploaded (91226112)
+5208.999 (3) Googledrive chunked upload: 28.4 % uploaded (92274688)
+5209.143 (3) Googledrive chunked upload: 28.7 % uploaded (93323264)
+5209.274 (3) Googledrive chunked upload: 29 % uploaded (94371840)
+5209.426 (3) Googledrive chunked upload: 29.3 % uploaded (95420416)
+5209.559 (3) Googledrive chunked upload: 29.7 % uploaded (96468992)
+5209.706 (3) Googledrive chunked upload: 30 % uploaded (97517568)
+5209.826 (3) Googledrive chunked upload: 30.3 % uploaded (98566144)
+5209.963 (3) Googledrive chunked upload: 30.6 % uploaded (99614720)
+5210.086 (3) Googledrive chunked upload: 30.9 % uploaded (100663296)
+5210.237 (3) Googledrive chunked upload: 31.3 % uploaded (101711872)
+5210.373 (3) Googledrive chunked upload: 31.6 % uploaded (102760448)
+5210.492 (3) Googledrive chunked upload: 31.9 % uploaded (103809024)
+5210.612 (3) Googledrive chunked upload: 32.2 % uploaded (104857600)
+5210.773 (3) Googledrive chunked upload: 32.6 % uploaded (105906176)
+5210.940 (3) Googledrive chunked upload: 32.9 % uploaded (106954752)
+5211.128 (3) Googledrive chunked upload: 33.2 % uploaded (108003328)
+5211.306 (3) Googledrive chunked upload: 33.5 % uploaded (109051904)
+5211.455 (3) Googledrive chunked upload: 33.8 % uploaded (110100480)
+5211.619 (3) Googledrive chunked upload: 34.2 % uploaded (111149056)
+5211.793 (3) Googledrive chunked upload: 34.5 % uploaded (112197632)
+5211.953 (3) Googledrive chunked upload: 34.8 % uploaded (113246208)
+5212.100 (3) Googledrive chunked upload: 35.1 % uploaded (114294784)
+5212.357 (3) Googledrive chunked upload: 35.5 % uploaded (115343360)
+5212.492 (3) Googledrive chunked upload: 35.8 % uploaded (116391936)
+5212.674 (3) Googledrive chunked upload: 36.1 % uploaded (117440512)
+5212.810 (3) Googledrive chunked upload: 36.4 % uploaded (118489088)
+5212.985 (3) Googledrive chunked upload: 36.7 % uploaded (119537664)
+5213.131 (3) Googledrive chunked upload: 37.1 % uploaded (120586240)
+5213.295 (3) Googledrive chunked upload: 37.4 % uploaded (121634816)
+5213.467 (3) Googledrive chunked upload: 37.7 % uploaded (122683392)
+5213.630 (3) Googledrive chunked upload: 38 % uploaded (123731968)
+5213.778 (3) Googledrive chunked upload: 38.4 % uploaded (124780544)
+5213.926 (3) Googledrive chunked upload: 38.7 % uploaded (125829120)
+5214.222 (3) Googledrive chunked upload: 39 % uploaded (126877696)
+5214.383 (3) Googledrive chunked upload: 39.3 % uploaded (127926272)
+5214.557 (3) Googledrive chunked upload: 39.6 % uploaded (128974848)
+5214.703 (3) Googledrive chunked upload: 40 % uploaded (130023424)
+5214.852 (3) Googledrive chunked upload: 40.3 % uploaded (131072000)
+5215.022 (3) Googledrive chunked upload: 40.6 % uploaded (132120576)
+5215.222 (3) Googledrive chunked upload: 40.9 % uploaded (133169152)
+5215.378 (3) Googledrive chunked upload: 41.3 % uploaded (134217728)
+5215.520 (3) Googledrive chunked upload: 41.6 % uploaded (135266304)
+5215.700 (3) Googledrive chunked upload: 41.9 % uploaded (136314880)
+5215.879 (3) Googledrive chunked upload: 42.2 % uploaded (137363456)
+5216.047 (3) Googledrive chunked upload: 42.5 % uploaded (138412032)
+5216.222 (3) Googledrive chunked upload: 42.9 % uploaded (139460608)
+5216.393 (3) Googledrive chunked upload: 43.2 % uploaded (140509184)
+5216.572 (3) Googledrive chunked upload: 43.5 % uploaded (141557760)
+5216.738 (3) Googledrive chunked upload: 43.8 % uploaded (142606336)
+5216.900 (3) Googledrive chunked upload: 44.2 % uploaded (143654912)
+5217.052 (3) Googledrive chunked upload: 44.5 % uploaded (144703488)
+5217.189 (3) Googledrive chunked upload: 44.8 % uploaded (145752064)
+5217.377 (3) Googledrive chunked upload: 45.1 % uploaded (146800640)
+5217.519 (3) Googledrive chunked upload: 45.5 % uploaded (147849216)
+5217.666 (3) Googledrive chunked upload: 45.8 % uploaded (148897792)
+5217.817 (3) Googledrive chunked upload: 46.1 % uploaded (149946368)
+5217.943 (3) Googledrive chunked upload: 46.4 % uploaded (150994944)
+5218.143 (3) Googledrive chunked upload: 46.7 % uploaded (152043520)
+5218.273 (3) Googledrive chunked upload: 47.1 % uploaded (153092096)
+5218.428 (3) Googledrive chunked upload: 47.4 % uploaded (154140672)
+5218.576 (3) Googledrive chunked upload: 47.7 % uploaded (155189248)
+5218.740 (3) Googledrive chunked upload: 48 % uploaded (156237824)
+5218.915 (3) Googledrive chunked upload: 48.4 % uploaded (157286400)
+5219.095 (3) Googledrive chunked upload: 48.7 % uploaded (158334976)
+5219.262 (3) Googledrive chunked upload: 49 % uploaded (159383552)
+5219.425 (3) Googledrive chunked upload: 49.3 % uploaded (160432128)
+5219.593 (3) Googledrive chunked upload: 49.6 % uploaded (161480704)
+5219.757 (3) Googledrive chunked upload: 50 % uploaded (162529280)
+5219.922 (3) Googledrive chunked upload: 50.3 % uploaded (163577856)
+5220.075 (3) Googledrive chunked upload: 50.6 % uploaded (164626432)
+5220.217 (3) Googledrive chunked upload: 50.9 % uploaded (165675008)
+5220.362 (3) Googledrive chunked upload: 51.3 % uploaded (166723584)
+5220.526 (3) Googledrive chunked upload: 51.6 % uploaded (167772160)
+5220.684 (3) Googledrive chunked upload: 51.9 % uploaded (168820736)
+5220.830 (3) Googledrive chunked upload: 52.2 % uploaded (169869312)
+5221.015 (3) Googledrive chunked upload: 52.5 % uploaded (170917888)
+5221.215 (3) Googledrive chunked upload: 52.9 % uploaded (171966464)
+5221.365 (3) Googledrive chunked upload: 53.2 % uploaded (173015040)
+5221.500 (3) Googledrive chunked upload: 53.5 % uploaded (174063616)
+5221.661 (3) Googledrive chunked upload: 53.8 % uploaded (175112192)
+5221.805 (3) Googledrive chunked upload: 54.2 % uploaded (176160768)
+5221.979 (3) Googledrive chunked upload: 54.5 % uploaded (177209344)
+5222.159 (3) Googledrive chunked upload: 54.8 % uploaded (178257920)
+5222.319 (3) Googledrive chunked upload: 55.1 % uploaded (179306496)
+5222.482 (3) Googledrive chunked upload: 55.4 % uploaded (180355072)
+5222.638 (3) Googledrive chunked upload: 55.8 % uploaded (181403648)
+5222.802 (3) Googledrive chunked upload: 56.1 % uploaded (182452224)
+5282.806 (3) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: /home/iv3flim9/public_html/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+5282.807 (3) An error condition has occurred for the first time during this job
+5283.045 (3) Google Drive: quota usage: used=1987.4 MB, total=15360 MB, available=13372.6 MB
+5283.046 (3) Google Drive: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-others.zip: Attempting to upload to Google Drive (into folder id: 1TWEXH87i5GuxfBkowZpmbh0Pac6FdaD4)
+5283.554 (3) Googledrive chunked upload: 77 % uploaded (1048576)
+5284.609 (3) Googledrive chunked upload: 100 % uploaded (1048576)
+5284.614 (3) Google Drive: OK: Archive backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-others.zip uploaded in 1.57 seconds
+5284.615 (3) Recording as successfully uploaded: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-others.zip
+5284.617 (3) Deleting local file: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-others.zip: OK
+5284.852 (3) Google Drive: quota usage: used=1988.7 MB, total=15360 MB, available=13371.3 MB
+5284.854 (3) Google Drive: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db.gz: Attempting to upload to Google Drive (into folder id: 1TWEXH87i5GuxfBkowZpmbh0Pac6FdaD4)
+5287.412 (3) Googledrive chunked upload: 100 % uploaded
+5287.417 (3) Google Drive: OK: Archive backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db.gz uploaded in 2.56 seconds
+5287.418 (3) Recording as successfully uploaded: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db.gz
+5287.420 (3) Deleting local file: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db.gz: OK
+5287.422 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+5287.423 (3) Number of backup sets in history: 2; groups (db): 1
+5287.425 (3) Examining (for databases) backup set with group_id=0, nonce=cd3f8594957f, datestamp=1569085902 (Sep 21 2019 17:11:42)
+5287.425 (3) This backup set is the backup set just made, so will not be deleted.
+5287.425 (3) Examining (for databases) backup set with group_id=0, nonce=3b9f6954abbd, datestamp=1569084046 (Sep 21 2019 16:40:46)
+5287.425 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+5287.426 (3) Number of backup sets in history: 2; groups (files): 1
+5287.426 (3) Examining (for files) backup set with nonce=cd3f8594957f, datestamp=1569085902 (Sep 21 2019 17:11:42)
+5287.427 (3) This backup set is the backup set just made, so will not be deleted.
+5287.427 (3) This backup set is the backup set just made, so will not be deleted.
+5287.427 (3) This backup set is the backup set just made, so will not be deleted.
+5287.427 (3) This backup set is the backup set just made, so will not be deleted.
+5287.427 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+5287.428 (3) Examining (for files) backup set with nonce=3b9f6954abbd, datestamp=1569084046 (Sep 21 2019 16:40:46)
+5287.428 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+5287.428 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+5287.430 (3) Resume backup (cd3f8594957f, 3): finish run
+5287.431 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5287.433 (3) Rescheduling resumption 4: moving to 1260 seconds from now (1569092450)
+5287.434 (3) The backup has not finished; a resumption is scheduled
+7423.433 (4) Opened log file at time: Sat, 21 Sep 2019 19:15:26 +0000 on http://www.davidefiammenghi.com
+7423.436 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.16 WP: 5.2.2 PHP: 7.3.9 (cgi-fcgi, Linux lhcp2083.webapps.net 2.6.32-954.3.5.lve1.4.59.el6.x86_64 #1 SMP Thu Dec 6 05:11:00 EST 2018 x86_64) MySQL: 5.6.43-cll-lve WPLANG: it_IT Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.4M | 48.5M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+7423.485 (4) Free space on disk containing Updraft's temporary directory: 396613.6 MB
+7423.489 (4) Backup run: resumption=4, nonce=cd3f8594957f, file_nonce=cd3f8594957f begun at=1569085902 (7424s ago), job type=backup, previous check-in=1572s
+7423.491 (4) Scheduling a resumption (5) after 3018 seconds (1569096344) in case this run gets aborted
+7423.646 (4) Checking if we have a zip executable available
+7423.651 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+7423.652 (4) Creation of backups of directories: already finished
+7423.653 (4) Saving backup status to database (elements: 8)
+7423.659 (4) Database dump (WordPress DB): Creation was completed already
+7423.662 (4) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-plugins.zip: plugins: This file has already been successfully uploaded
+7423.663 (4) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-themes.zip: themes: This file has already been successfully uploaded
+7423.663 (4) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+7423.663 (4) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-others.zip: others: This file has already been successfully uploaded
+7423.664 (4) backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-db.gz: db: This file has already been successfully uploaded
+7423.664 (4) Saving backup history. Total backup size: Unknown
+7423.667 (4) Requesting upload of the files that have not yet been successfully uploaded (1)
+7423.668 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+7423.668 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-af62659ee1308a9773cedd80f7f9d275)
+7429.992 (4) Google Drive: quota usage: used=1989.2 MB, total=15360 MB, available=13370.8 MB
+7429.993 (4) Google Drive: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip: Attempting to upload to Google Drive (into folder id: 1TWEXH87i5GuxfBkowZpmbh0Pac6FdaD4)
+7430.195 (4) Google Drive: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip: upload already began; attempting to resume from byte 183238655
+7430.465 (4) Googledrive chunked upload: 56.7 % uploaded (184287232)
+7431.084 (4) Googledrive chunked upload: 57 % uploaded (185335808)
+7431.275 (4) Googledrive chunked upload: 57.3 % uploaded (186384384)
+7431.426 (4) Googledrive chunked upload: 57.6 % uploaded (187432960)
+7431.688 (4) Googledrive chunked upload: 57.9 % uploaded (188481536)
+7431.846 (4) Googledrive chunked upload: 58.3 % uploaded (189530112)
+7432.006 (4) Googledrive chunked upload: 58.6 % uploaded (190578688)
+7432.206 (4) Googledrive chunked upload: 58.9 % uploaded (191627264)
+7432.377 (4) Googledrive chunked upload: 59.2 % uploaded (192675840)
+7432.644 (4) Googledrive chunked upload: 59.6 % uploaded (193724416)
+7432.851 (4) Googledrive chunked upload: 59.9 % uploaded (194772992)
+7433.015 (4) Googledrive chunked upload: 60.2 % uploaded (195821568)
+7433.172 (4) Googledrive chunked upload: 60.5 % uploaded (196870144)
+7433.330 (4) Googledrive chunked upload: 60.8 % uploaded (197918720)
+7433.593 (4) Googledrive chunked upload: 61.2 % uploaded (198967296)
+7433.867 (4) Googledrive chunked upload: 61.5 % uploaded (200015872)
+7434.172 (4) Googledrive chunked upload: 61.8 % uploaded (201064448)
+7434.375 (4) Googledrive chunked upload: 62.1 % uploaded (202113024)
+7439.666 (4) Googledrive chunked upload: 62.5 % uploaded (203161600)
+7439.832 (4) Googledrive chunked upload: 62.8 % uploaded (204210176)
+7439.993 (4) Googledrive chunked upload: 63.1 % uploaded (205258752)
+7440.245 (4) Googledrive chunked upload: 63.4 % uploaded (206307328)
+7440.394 (4) Googledrive chunked upload: 63.7 % uploaded (207355904)
+7440.676 (4) Googledrive chunked upload: 64.1 % uploaded (208404480)
+7440.838 (4) Googledrive chunked upload: 64.4 % uploaded (209453056)
+7440.979 (4) Googledrive chunked upload: 64.7 % uploaded (210501632)
+7441.116 (4) Googledrive chunked upload: 65 % uploaded (211550208)
+7441.272 (4) Googledrive chunked upload: 65.4 % uploaded (212598784)
+7441.669 (4) Googledrive chunked upload: 65.7 % uploaded (213647360)
+7446.891 (4) Googledrive chunked upload: 66 % uploaded (214695936)
+7447.042 (4) Googledrive chunked upload: 66.3 % uploaded (215744512)
+7447.212 (4) Googledrive chunked upload: 66.6 % uploaded (216793088)
+7447.338 (4) Googledrive chunked upload: 67 % uploaded (217841664)
+7447.475 (4) Googledrive chunked upload: 67.3 % uploaded (218890240)
+7447.602 (4) Googledrive chunked upload: 67.6 % uploaded (219938816)
+7447.774 (4) Googledrive chunked upload: 67.9 % uploaded (220987392)
+7447.959 (4) Googledrive chunked upload: 68.3 % uploaded (222035968)
+7448.106 (4) Googledrive chunked upload: 68.6 % uploaded (223084544)
+7448.281 (4) Googledrive chunked upload: 68.9 % uploaded (224133120)
+7448.436 (4) Googledrive chunked upload: 69.2 % uploaded (225181696)
+7448.609 (4) Googledrive chunked upload: 69.5 % uploaded (226230272)
+7448.778 (4) Googledrive chunked upload: 69.9 % uploaded (227278848)
+7448.993 (4) Googledrive chunked upload: 70.2 % uploaded (228327424)
+7449.133 (4) Googledrive chunked upload: 70.5 % uploaded (229376000)
+7449.282 (4) Googledrive chunked upload: 70.8 % uploaded (230424576)
+7449.453 (4) Googledrive chunked upload: 71.2 % uploaded (231473152)
+7449.602 (4) Googledrive chunked upload: 71.5 % uploaded (232521728)
+7449.750 (4) Googledrive chunked upload: 71.8 % uploaded (233570304)
+7449.910 (4) Googledrive chunked upload: 72.1 % uploaded (234618880)
+7450.074 (4) Googledrive chunked upload: 72.4 % uploaded (235667456)
+7450.242 (4) Googledrive chunked upload: 72.8 % uploaded (236716032)
+7450.401 (4) Googledrive chunked upload: 73.1 % uploaded (237764608)
+7450.567 (4) Googledrive chunked upload: 73.4 % uploaded (238813184)
+7450.762 (4) Googledrive chunked upload: 73.7 % uploaded (239861760)
+7450.925 (4) Googledrive chunked upload: 74.1 % uploaded (240910336)
+7451.063 (4) Googledrive chunked upload: 74.4 % uploaded (241958912)
+7451.212 (4) Googledrive chunked upload: 74.7 % uploaded (243007488)
+7451.352 (4) Googledrive chunked upload: 75 % uploaded (244056064)
+7451.518 (4) Googledrive chunked upload: 75.3 % uploaded (245104640)
+7451.687 (4) Googledrive chunked upload: 75.7 % uploaded (246153216)
+7451.856 (4) Googledrive chunked upload: 76 % uploaded (247201792)
+7452.018 (4) Googledrive chunked upload: 76.3 % uploaded (248250368)
+7452.201 (4) Googledrive chunked upload: 76.6 % uploaded (249298944)
+7452.379 (4) Googledrive chunked upload: 77 % uploaded (250347520)
+7452.549 (4) Googledrive chunked upload: 77.3 % uploaded (251396096)
+7452.797 (4) Googledrive chunked upload: 77.6 % uploaded (252444672)
+7452.958 (4) Googledrive chunked upload: 77.9 % uploaded (253493248)
+7453.166 (4) Googledrive chunked upload: 78.2 % uploaded (254541824)
+7453.309 (4) Googledrive chunked upload: 78.6 % uploaded (255590400)
+7453.478 (4) Googledrive chunked upload: 78.9 % uploaded (256638976)
+7453.634 (4) Googledrive chunked upload: 79.2 % uploaded (257687552)
+7453.773 (4) Googledrive chunked upload: 79.5 % uploaded (258736128)
+7453.948 (4) Googledrive chunked upload: 79.9 % uploaded (259784704)
+7454.097 (4) Googledrive chunked upload: 80.2 % uploaded (260833280)
+7454.228 (4) Googledrive chunked upload: 80.5 % uploaded (261881856)
+7454.487 (4) Googledrive chunked upload: 80.8 % uploaded (262930432)
+7454.663 (4) Googledrive chunked upload: 81.2 % uploaded (263979008)
+7454.822 (4) Googledrive chunked upload: 81.5 % uploaded (265027584)
+7455.010 (4) Googledrive chunked upload: 81.8 % uploaded (266076160)
+7455.265 (4) Googledrive chunked upload: 82.1 % uploaded (267124736)
+7455.413 (4) Googledrive chunked upload: 82.4 % uploaded (268173312)
+7455.694 (4) Googledrive chunked upload: 82.8 % uploaded (269221888)
+7455.842 (4) Googledrive chunked upload: 83.1 % uploaded (270270464)
+7455.988 (4) Googledrive chunked upload: 83.4 % uploaded (271319040)
+7456.151 (4) Googledrive chunked upload: 83.7 % uploaded (272367616)
+7456.312 (4) Googledrive chunked upload: 84.1 % uploaded (273416192)
+7456.447 (4) Googledrive chunked upload: 84.4 % uploaded (274464768)
+7456.605 (4) Googledrive chunked upload: 84.7 % uploaded (275513344)
+7456.739 (4) Googledrive chunked upload: 85 % uploaded (276561920)
+7456.939 (4) Googledrive chunked upload: 85.3 % uploaded (277610496)
+7457.124 (4) Googledrive chunked upload: 85.7 % uploaded (278659072)
+7457.301 (4) Googledrive chunked upload: 86 % uploaded (279707648)
+7457.458 (4) Googledrive chunked upload: 86.3 % uploaded (280756224)
+7457.603 (4) Googledrive chunked upload: 86.6 % uploaded (281804800)
+7457.777 (4) Googledrive chunked upload: 87 % uploaded (282853376)
+7457.946 (4) Googledrive chunked upload: 87.3 % uploaded (283901952)
+7458.098 (4) Googledrive chunked upload: 87.6 % uploaded (284950528)
+7458.260 (4) Googledrive chunked upload: 87.9 % uploaded (285999104)
+7458.416 (4) Googledrive chunked upload: 88.2 % uploaded (287047680)
+7458.567 (4) Googledrive chunked upload: 88.6 % uploaded (288096256)
+7458.735 (4) Googledrive chunked upload: 88.9 % uploaded (289144832)
+7458.923 (4) Googledrive chunked upload: 89.2 % uploaded (290193408)
+7459.106 (4) Googledrive chunked upload: 89.5 % uploaded (291241984)
+7459.269 (4) Googledrive chunked upload: 89.9 % uploaded (292290560)
+7459.429 (4) Googledrive chunked upload: 90.2 % uploaded (293339136)
+7459.713 (4) Googledrive chunked upload: 90.5 % uploaded (294387712)
+7459.859 (4) Googledrive chunked upload: 90.8 % uploaded (295436288)
+7460.028 (4) Googledrive chunked upload: 91.1 % uploaded (296484864)
+7460.233 (4) Googledrive chunked upload: 91.5 % uploaded (297533440)
+7460.400 (4) Googledrive chunked upload: 91.8 % uploaded (298582016)
+7460.653 (4) Googledrive chunked upload: 92.1 % uploaded (299630592)
+7460.810 (4) Googledrive chunked upload: 92.4 % uploaded (300679168)
+7460.969 (4) Googledrive chunked upload: 92.8 % uploaded (301727744)
+7461.151 (4) Googledrive chunked upload: 93.1 % uploaded (302776320)
+7461.305 (4) Googledrive chunked upload: 93.4 % uploaded (303824896)
+7461.482 (4) Googledrive chunked upload: 93.7 % uploaded (304873472)
+7461.697 (4) Googledrive chunked upload: 94 % uploaded (305922048)
+7461.860 (4) Googledrive chunked upload: 94.4 % uploaded (306970624)
+7462.031 (4) Googledrive chunked upload: 94.7 % uploaded (308019200)
+7462.202 (4) Googledrive chunked upload: 95 % uploaded (309067776)
+7462.380 (4) Googledrive chunked upload: 95.3 % uploaded (310116352)
+7462.542 (4) Googledrive chunked upload: 95.7 % uploaded (311164928)
+7462.727 (4) Googledrive chunked upload: 96 % uploaded (312213504)
+7462.928 (4) Googledrive chunked upload: 96.3 % uploaded (313262080)
+7463.069 (4) Googledrive chunked upload: 96.6 % uploaded (314310656)
+7463.226 (4) Googledrive chunked upload: 96.9 % uploaded (315359232)
+7463.390 (4) Googledrive chunked upload: 97.3 % uploaded (316407808)
+7463.542 (4) Googledrive chunked upload: 97.6 % uploaded (317456384)
+7463.704 (4) Googledrive chunked upload: 97.9 % uploaded (318504960)
+7463.860 (4) Googledrive chunked upload: 98.2 % uploaded (319553536)
+7464.035 (4) Googledrive chunked upload: 98.6 % uploaded (320602112)
+7464.193 (4) Googledrive chunked upload: 98.9 % uploaded (321650688)
+7464.355 (4) Googledrive chunked upload: 99.2 % uploaded (322699264)
+7464.519 (4) Googledrive chunked upload: 99.5 % uploaded (323747840)
+7464.677 (4) Googledrive chunked upload: 99.8 % uploaded (324796416)
+7466.890 (4) Googledrive chunked upload: 100 % uploaded (324796416)
+7466.892 (4) Google Drive: OK: Archive backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip uploaded in 36.9 seconds
+7466.893 (4) Recording as successfully uploaded: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip
+7466.925 (4) Deleting local file: backup_2019-09-21-1911_Davide_Fiammenghi_cd3f8594957f-uploads.zip: OK
+7466.927 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+7466.929 (4) Number of backup sets in history: 2; groups (db): 1
+7466.929 (4) Examining (for databases) backup set with group_id=0, nonce=cd3f8594957f, datestamp=1569085902 (Sep 21 2019 17:11:42)
+7466.929 (4) This backup set is the backup set just made, so will not be deleted.
+7466.929 (4) Examining (for databases) backup set with group_id=0, nonce=3b9f6954abbd, datestamp=1569084046 (Sep 21 2019 16:40:46)
+7466.929 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+7466.930 (4) Number of backup sets in history: 2; groups (files): 1
+7466.930 (4) Examining (for files) backup set with nonce=cd3f8594957f, datestamp=1569085902 (Sep 21 2019 17:11:42)
+7466.930 (4) This backup set is the backup set just made, so will not be deleted.
+7466.931 (4) This backup set is the backup set just made, so will not be deleted.
+7466.931 (4) This backup set is the backup set just made, so will not be deleted.
+7466.931 (4) This backup set is the backup set just made, so will not be deleted.
+7466.931 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+7466.931 (4) Examining (for files) backup set with nonce=3b9f6954abbd, datestamp=1569084046 (Sep 21 2019 16:40:46)
+7466.931 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+7466.931 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+7466.933 (4) Resume backup (cd3f8594957f, 4): finish run
+7466.934 (4) There were no errors in the uploads, so the 'resume' event (5) is being unscheduled
+7466.936 (4) Fetching RSS news feed
+7467.844 (4) Fetched RSS news feed; result is a: SimplePie
+7468.191 (4) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: david...
+7468.464 (4) The backup apparently succeeded and is now complete

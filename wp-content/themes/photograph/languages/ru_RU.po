@@ -1,0 +1,709 @@
+# Translation of Themes - Photograph in Russian
+# This file is distributed under the same license as the Themes - Photograph package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-05-21 16:36+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.2\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Photograph\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#. Description of the theme
+msgid "Photograph is a WordPress theme exclusively built for photographer, blogger, portfolio, photography agency or photo studio websites. It is clean, super flexible, fully responsive designs, amazing new features, complete 1-click website demos and lifetime free updates. Photograph design can be used for any type of website. This Photograph theme with awesome video tells story about how photograph has positive impact in many person's life. It consists Contact Us Template, Gallery Template Photograph Template, widgets and Sidebar. Get free support at https://tickets.themefreesia.com/ and View free demo sites at https://demo.themefreesia.com/photograph"
+msgstr ""
+
+#. Theme Name of the theme
+#: inc/upgrade-plus/class-customize.php:63
+msgid "Photograph"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:268
+msgid "Disable Fancy Box"
+msgstr "Отключить Fancy Box"
+
+#: inc/customizer/functions/theme-options.php:256
+msgid "Disable Volumen Button"
+msgstr "Отключить кнопку Volume"
+
+#. Template Name of the theme
+msgid "Photograph Template"
+msgstr "Настройки шаблона"
+
+#. Template Name of the theme
+msgid "Gallery Template"
+msgstr "Шаблон галереи"
+
+#. Template Name of the theme
+msgid "Contact Template"
+msgstr "Шаблон контактов"
+
+#. Template Name of the theme
+msgid "About Us Template"
+msgstr "Шаблон О нас"
+
+#: single.php:107
+msgid "Previous post:"
+msgstr "Предыдущая запись:"
+
+#: single.php:106
+msgid "Previous"
+msgstr "Назад"
+
+#: single.php:104
+msgid "Next post:"
+msgstr "Следующая запись:"
+
+#: single.php:103
+msgid "Next"
+msgstr "Вперёд"
+
+#: single.php:99
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Опубликовано в</span> <span class=\"post-title\">% title</span>"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: pagination.php:17
+msgid "Page"
+msgstr "Страница"
+
+#: pagination.php:16
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: pagination.php:15
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+#: inc/widgets/widgets-functions/register-widgets.php:60
+msgid "Add WooCommerce Widgets Only"
+msgstr "Добавить только виджет для WooCommerce"
+
+#: inc/widgets/widgets-functions/register-widgets.php:58
+msgid "WooCommerce Sidebar"
+msgstr "Боковая панель плагина WooCommerce"
+
+#: inc/widgets/widgets-functions/register-widgets.php:51
+msgid "Add Iframe Code using text widgets"
+msgstr ""
+
+#: inc/widgets/widgets-functions/register-widgets.php:49
+msgid "Iframe Code For Google Maps"
+msgstr ""
+
+#: inc/widgets/widgets-functions/register-widgets.php:42
+msgid "Shows widgets on Contact Page Template."
+msgstr ""
+
+#: inc/widgets/widgets-functions/register-widgets.php:40
+msgid "Contact Page Sidebar"
+msgstr "Сайдбар страницы контактов"
+
+#: inc/widgets/widgets-functions/register-widgets.php:33
+msgid "Use any Slider Plugins and drag that slider widgets to this Slider Section but you must select Display Category Slider from Customize > Slider/ Video Options > Choose Video/ Category Slider"
+msgstr ""
+
+#: inc/widgets/widgets-functions/register-widgets.php:31
+msgid "Slider Section"
+msgstr "Секция слайдера"
+
+#: inc/widgets/widgets-functions/register-widgets.php:24
+msgid "Shows widgets on all page."
+msgstr "Показ виджетов на всех страницах"
+
+#: inc/widgets/widgets-functions/register-widgets.php:15
+msgid "Shows widgets at Main Sidebar."
+msgstr ""
+
+#: inc/widgets/widgets-functions/register-widgets.php:13
+msgid "Main Sidebar"
+msgstr "Основной сайдбар"
+
+#: inc/widgets/widgets-functions/popular-posts.php:39
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: inc/widgets/widgets-functions/popular-posts.php:34
+msgid "Number of popular posts:"
+msgstr "Количество популярных записей:"
+
+#: inc/widgets/widgets-functions/popular-posts.php:20
+msgid "TF: Popular Posts"
+msgstr "Популярные статьи:"
+
+#: inc/widgets/widgets-functions/popular-posts.php:18
+msgid "Displays popular posts"
+msgstr "Популярные записи"
+
+#: inc/upgrade-plus/class-customize.php:64
+msgid "Upgrade To Plus"
+msgstr ""
+
+#: inc/settings/photograph-functions.php:563
+#: inc/settings/photograph-functions.php:575
+msgid "--Select--"
+msgstr "--Выбрать--"
+
+#: inc/settings/photograph-common-functions.php:20
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+#: inc/settings/photograph-common-functions.php:17
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+#: inc/settings/photograph-common-functions.php:14
+msgid "Comment navigation"
+msgstr "Навигация в комментариях"
+
+#: inc/customizer/photograph-default-values.php:66
+msgid "All"
+msgstr "Все"
+
+#: inc/customizer/photograph-default-values.php:22
+msgid "Search &hellip;"
+msgstr "Поиск &hellip;"
+
+#: inc/customizer/photograph-default-values.php:16
+msgid "View More"
+msgstr "Читать далее"
+
+#: inc/customizer/functions/theme-options.php:295
+msgid "Image will be displayed on footer"
+msgstr "Изображение будет отображаться в подвале"
+
+#: inc/customizer/functions/theme-options.php:281
+msgid "Reset all default settings. (Refresh it to view the effect)"
+msgstr "Сбросить все настройки (Отразится на всех настройках сайта) Лучше не использовать!"
+
+#: inc/customizer/functions/theme-options.php:244
+msgid "Disable Instagram"
+msgstr "Отключить Instagram"
+
+#: inc/customizer/functions/theme-options.php:232
+msgid "Disable Main Menu"
+msgstr "Отключение главного меню"
+
+#: inc/customizer/functions/theme-options.php:220
+msgid "Disable Page/Single Featured Image"
+msgstr "Отключить прикрепленное изображение в посте"
+
+#: inc/customizer/functions/theme-options.php:208
+msgid "Disable Bottom Social Icons"
+msgstr "Отключить нижние иконки социальных сетей"
+
+#: inc/customizer/functions/theme-options.php:196
+msgid "Disable Side Menu Social Icons"
+msgstr "Отключить боковое меню социальных значков"
+
+#: inc/customizer/functions/theme-options.php:184
+msgid "Disable Header Social Icons"
+msgstr "Отключить соц-иконки в верхней части шапки"
+
+#: inc/customizer/functions/theme-options.php:172
+msgid "Disable Goto Top"
+msgstr "Отключить Подняться наверх"
+
+#: inc/customizer/functions/theme-options.php:160
+msgid "Disable Stick Menu"
+msgstr "Отключить липкое меню"
+
+#: inc/customizer/functions/theme-options.php:148
+msgid "Disable Side Menu"
+msgstr "Отключить боковое меню"
+
+#: inc/customizer/functions/theme-options.php:136
+msgid "Disable Search Form"
+msgstr "Отключить поле поиска"
+
+#: inc/customizer/functions/theme-options.php:124
+msgid "Disable Wow Animation Options"
+msgstr "Отключить параметры анимации Wow"
+
+#: inc/customizer/functions/theme-options.php:113
+msgid "Top/center logo & site title"
+msgstr "Логотип будет отображаться вместо названия сайта."
+
+#: inc/customizer/functions/theme-options.php:112
+msgid "Default"
+msgstr "По умолчанию"
+
+#: inc/customizer/functions/theme-options.php:107
+msgid "Header Design Layout"
+msgstr "Дизайн шапки"
+
+#: inc/customizer/functions/theme-options.php:95
+msgid "Center Logo for high resolution screen(Use 2X size image)"
+msgstr "Центральный логотип для экрана с высоким разрешением (используйте изображение в 2 раза)"
+
+#: inc/customizer/functions/theme-options.php:84
+msgid "Disable Both"
+msgstr "Скрыть всё"
+
+#: inc/customizer/functions/theme-options.php:83
+msgid "Show Both"
+msgstr "Показать все"
+
+#: inc/customizer/functions/theme-options.php:82
+msgid "Display Site Logo Only"
+msgstr "Отображать только логотип сайта"
+
+#: inc/customizer/functions/theme-options.php:81
+msgid "Display Site Title Only"
+msgstr "Отображать только заголовок сайта"
+
+#: inc/customizer/functions/theme-options.php:75
+msgid "Site Logo/ Text Options"
+msgstr "Логотип сайта/Настройка текста"
+
+#: inc/customizer/functions/theme-options.php:61
+#: inc/customizer/functions/theme-options.php:294
+msgid "Footer Background Image"
+msgstr "Изображение фона нижнего колонтитула"
+
+#: inc/customizer/functions/theme-options.php:55
+msgid "Excert Text/ Excerpt Length"
+msgstr "Текст выдержки / длина выдержки"
+
+#: inc/customizer/functions/theme-options.php:49
+msgid "Search Text"
+msgstr "Текст в поисковой строке"
+
+#: inc/customizer/functions/theme-options.php:43
+msgid "Options"
+msgstr "Настройки"
+
+#: inc/customizer/functions/theme-options.php:37
+msgid "Site Title & Logo Options"
+msgstr "Заголовок сайта и Настройки логотипа"
+
+#: inc/customizer/functions/theme-options.php:32
+msgid "Static Front Page"
+msgstr "Статическая главная страница"
+
+#: inc/customizer/functions/theme-options.php:27
+msgid "Navigation"
+msgstr "Навигация"
+
+#: inc/customizer/functions/theme-options.php:22
+msgid "Background Image"
+msgstr "Изображение фона"
+
+#: inc/customizer/functions/theme-options.php:17
+msgid "Colors"
+msgstr "Цвета"
+
+#: inc/customizer/functions/theme-options.php:12
+msgid "Header Media"
+msgstr "Шапка Медиа"
+
+#: inc/customizer/functions/register-panel.php:56
+msgid "Colors Section"
+msgstr "Раздел цветов"
+
+#: inc/customizer/functions/register-panel.php:46
+msgid "Frontpage"
+msgstr "Главная страница"
+
+#: inc/customizer/functions/register-panel.php:36
+msgid "Slider/ Video Options"
+msgstr "Параметры слайдера / видео"
+
+#: inc/customizer/functions/register-panel.php:26
+msgid "Theme Options"
+msgstr "Настройка темы"
+
+#: inc/customizer/functions/register-panel.php:16
+msgid "WordPress Settings"
+msgstr ""
+
+#: inc/customizer/functions/frontpage-features.php:114
+msgid "Select Tab Tags # "
+msgstr "Выберите вкладку Теги #"
+
+#: inc/customizer/functions/frontpage-features.php:95
+msgid "Selected category will only be displayed. Below selected Tags will be displayed which fall under this selected category only. If no category is selected then latest post will be displayed"
+msgstr "Выбранная категория будет отображаться только. Ниже будут отображаться выбранные теги, которые попадают только в эту выбранную категорию. Если категория не выбрана, будет отображаться последнее сообщение"
+
+#: inc/customizer/functions/frontpage-features.php:94
+msgid "Select Category"
+msgstr "Выберите категорию"
+
+#: inc/customizer/functions/frontpage-features.php:79
+msgid "Title"
+msgstr "Заголовок"
+
+#: inc/customizer/functions/frontpage-features.php:66
+msgid "Show Title in Hover  (Default)"
+msgstr "Показывать заголовок в режиме наведения (по умолчанию)"
+
+#: inc/customizer/functions/frontpage-features.php:65
+msgid "Hide Gallery Title"
+msgstr "Скрыть название галереи"
+
+#: inc/customizer/functions/frontpage-features.php:64
+msgid "Show Gallery Title"
+msgstr "Покажите заголовок галереи"
+
+#: inc/customizer/functions/frontpage-features.php:59
+msgid " This feature will work only with Featured Image "
+msgstr "Эта функция будет работать только с Избранным изображением"
+
+#: inc/customizer/functions/frontpage-features.php:58
+msgid " Gallery Title "
+msgstr "Название галереи"
+
+#: inc/customizer/functions/frontpage-features.php:44
+msgid "No of Featured Post "
+msgstr "Нет избранных постов"
+
+#: inc/customizer/functions/frontpage-features.php:30
+msgid "Disable Feature Tab Section"
+msgstr "Отключить раздел вкладок функций"
+
+#: inc/customizer/functions/frontpage-features.php:16
+msgid "Featured Gallery"
+msgstr "Прикрепленная галерея"
+
+#: inc/customizer/functions/featured-content-customizer.php:203
+msgid "Select Category to display title and content in video. If no video is added then featured image of selected post will be displayed."
+msgstr "Выберите категорию, чтобы отобразить заголовок и контент в видео. Если видео не добавлено, будет отображаться изображение выбранного сообщения."
+
+#: inc/customizer/functions/featured-content-customizer.php:202
+msgid "Display text and content in Video"
+msgstr "Отображать текст и контент в видео"
+
+#: inc/customizer/functions/featured-content-customizer.php:187
+msgid "Or, enter a YouTube URL:"
+msgstr "Или введите URL-адрес YouTube:"
+
+#: inc/customizer/functions/featured-content-customizer.php:173
+msgid "Upload Video"
+msgstr "Загрузить видео"
+
+#: inc/customizer/functions/featured-content-customizer.php:157
+msgid "By default no slider is displayed"
+msgstr "По умолчанию слайдер не отображается"
+
+#: inc/customizer/functions/featured-content-customizer.php:139
+msgid "Hide Background Color"
+msgstr "Скрыть цвет фона"
+
+#: inc/customizer/functions/featured-content-customizer.php:138
+msgid "Show Background Color"
+msgstr "Показать цвет фона"
+
+#: inc/customizer/functions/featured-content-customizer.php:133
+msgid "Slider Content With background color"
+msgstr "Содержание слайдера с цветом фона"
+
+#: inc/customizer/functions/featured-content-customizer.php:113
+msgid "Hide Slider/Video/Image Content"
+msgstr "Скрыть слайдер / видео / изображение"
+
+#: inc/customizer/functions/featured-content-customizer.php:101
+msgid "This feature will not work on Animation Effect set to fade"
+msgstr "Эта функция не будет работать на эффекте анимации, установленном на затухание"
+
+#: inc/customizer/functions/featured-content-customizer.php:100
+msgid " Set the speed of animations"
+msgstr "Установите скорость анимации"
+
+#: inc/customizer/functions/featured-content-customizer.php:88
+msgid "Set the speed of the slideshow cycling"
+msgstr "Установите скорость показа слайдов в миллисекундах"
+
+#: inc/customizer/functions/featured-content-customizer.php:77
+msgid "Fade"
+msgstr "Затухание"
+
+#: inc/customizer/functions/featured-content-customizer.php:76
+msgid "Slide"
+msgstr "Скольжение"
+
+#: inc/customizer/functions/featured-content-customizer.php:71
+msgid "Animation Effect"
+msgstr "Эффект анимации"
+
+#: inc/customizer/functions/featured-content-customizer.php:60
+msgid "Disable Slider/ Video"
+msgstr "Отключить слайдер / видео"
+
+#: inc/customizer/functions/featured-content-customizer.php:59
+msgid "Entire Site"
+msgstr "Весь сайт"
+
+#: inc/customizer/functions/featured-content-customizer.php:58
+msgid "Front Page"
+msgstr "Главная страница"
+
+#: inc/customizer/functions/featured-content-customizer.php:53
+msgid "Enable Slider/ Video Section"
+msgstr "Включить слайдер / раздел видео"
+
+#: inc/customizer/functions/featured-content-customizer.php:42
+msgid "Display Category Slider"
+msgstr "Рубрики слайдера"
+
+#: inc/customizer/functions/featured-content-customizer.php:41
+msgid "Default/ Video / Single Featured Image"
+msgstr "По умолчанию/Видео/Прикрепленное изображение"
+
+#: inc/customizer/functions/featured-content-customizer.php:36
+msgid "Choose Video/ Category Slider"
+msgstr "Выберите слайдер видео / категории"
+
+#: inc/customizer/functions/featured-content-customizer.php:25
+msgid "Select Video"
+msgstr "Выберите видео"
+
+#: inc/customizer/functions/featured-content-customizer.php:20
+#: inc/customizer/functions/featured-content-customizer.php:156
+msgid "Select Category Slider"
+msgstr "Выберите категорию для слайдера"
+
+#: inc/customizer/functions/featured-content-customizer.php:14
+msgid "Slider/ Video Settings"
+msgstr "Настройки слайдера / видео"
+
+#: inc/customizer/functions/design-options.php:164
+msgid "Show title on Hover "
+msgstr "Заголовок по Hover"
+
+#: inc/customizer/functions/design-options.php:163
+msgid "Show all Content"
+msgstr "Показать весь контент"
+
+#: inc/customizer/functions/design-options.php:158
+msgid "Display Content Type in Blog"
+msgstr "Отображение типа контента в блоге"
+
+#: inc/customizer/functions/design-options.php:146
+msgid "Small Boxed Layout"
+msgstr "Макет с малой фиксированной шириной"
+
+#: inc/customizer/functions/design-options.php:145
+msgid "Boxed Layout"
+msgstr "Макет с фиксированной шириной"
+
+#: inc/customizer/functions/design-options.php:144
+msgid "Full Width Layout"
+msgstr "Макет по всей ширине"
+
+#: inc/customizer/functions/design-options.php:139
+msgid "Design Layout"
+msgstr "Дизайн и расположение"
+
+#: inc/customizer/functions/design-options.php:128
+msgid " Excerpt  Display"
+msgstr "Выдержка"
+
+#: inc/customizer/functions/design-options.php:127
+msgid "Blog Full Content Display"
+msgstr "Просмотр полного содержимого блога"
+
+#: inc/customizer/functions/design-options.php:122
+msgid "Blog Content Display"
+msgstr "Просмотр содержимого блога"
+
+#: inc/customizer/functions/design-options.php:109
+msgid "Disable Comments"
+msgstr "Отключить комментарии"
+
+#: inc/customizer/functions/design-options.php:97
+msgid "Disable Date"
+msgstr "Отключить дату"
+
+#: inc/customizer/functions/design-options.php:85
+msgid "Disable Author"
+msgstr "Отключить имя автора"
+
+#: inc/customizer/functions/design-options.php:73
+msgid "Disable Category"
+msgstr "Отключить категорию"
+
+#: inc/customizer/functions/design-options.php:62
+msgid "Hide Entry Meta"
+msgstr "Скрыть метаданные"
+
+#: inc/customizer/functions/design-options.php:61
+msgid "Display Entry Meta"
+msgstr "Показать метаданные"
+
+#: inc/customizer/functions/design-options.php:57
+msgid "Disable Entry Meta from Blog"
+msgstr "Отключить мета для записей блога"
+
+#: inc/customizer/functions/design-options.php:46
+msgid "Hide Entry Format"
+msgstr "Скрыть полный формат"
+
+#: inc/customizer/functions/design-options.php:45
+msgid "Display Entry Format"
+msgstr "Отражать в полном формате"
+
+#: inc/customizer/functions/design-options.php:41
+msgid "Disable Entry Meta from Single Page"
+msgstr "Отключить мета для записей"
+
+#: inc/customizer/functions/design-options.php:30
+#: inc/customizer/functions/featured-content-customizer.php:119
+msgid "OFF"
+msgstr "Выкл"
+
+#: inc/customizer/functions/design-options.php:29
+#: inc/customizer/functions/featured-content-customizer.php:118
+msgid "ON "
+msgstr "Вкл"
+
+#: inc/customizer/functions/design-options.php:24
+msgid "Responsive Layout"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:12
+msgid "Layout Options"
+msgstr "Настройки макета"
+
+#: inc/customizer/functions/color-options.php:28
+msgid "Theme Color Styles"
+msgstr "Стили цвета темы"
+
+#: inc/customizer/functions/color-options.php:17
+msgid "Background Color Options"
+msgstr "Параметры фона и цвета"
+
+#: inc/customizer/functions/color-options.php:11
+msgid "Color Options"
+msgstr "Настройки цвета"
+
+#: header.php:76
+msgid "Menu Button"
+msgstr "Меню Кнопки"
+
+#: functions.php:149
+msgid "Important Links"
+msgstr ""
+
+#: functions.php:143
+msgid "Forum"
+msgstr ""
+
+#: functions.php:142
+msgid "Support Tickets"
+msgstr ""
+
+#: functions.php:139 functions.php:140
+msgid "Theme Instructions"
+msgstr ""
+
+#: functions.php:136 functions.php:137
+msgid "Review Us"
+msgstr "Обзор"
+
+#: functions.php:47
+msgid "Add Social Icons Only"
+msgstr "Добавить только иконки социальных сетей"
+
+#: functions.php:46 inc/widgets/widgets-functions/register-widgets.php:22
+msgid "Side Menu"
+msgstr "Боковое меню"
+
+#: functions.php:45
+msgid "Main Menu"
+msgstr "Основное меню"
+
+#: footer.php:76
+msgid "Copyright All right reserved "
+msgstr "Все права защищены."
+
+#: footer.php:76
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:76
+msgid "Y"
+msgstr ""
+
+#: footer.php:75
+msgid "Designed by:"
+msgstr ""
+
+#: single.php:84 content.php:107 page-templates/gallery-template.php:28
+#: page.php:43
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: single.php:40 content.php:66
+#: inc/widgets/widgets-functions/popular-posts.php:107
+msgid "Comments Off"
+msgstr "Комментирование выключено"
+
+#: single.php:40 content.php:66
+#: inc/widgets/widgets-functions/popular-posts.php:107
+msgid "<i class=\"fa fa-comment-o\"></i> % Comments"
+msgstr ""
+
+#: single.php:40 content.php:66
+#: inc/widgets/widgets-functions/popular-posts.php:107
+msgid "<i class=\"fa fa-comment-o\"></i> 1 Comment"
+msgstr ""
+
+#: single.php:40 content.php:66
+#: inc/widgets/widgets-functions/popular-posts.php:107
+msgid "<i class=\"fa fa-comment-o\"></i> No Comments"
+msgstr ""
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:25
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментарий на &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария на &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев на &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:21
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Один комментарий на &ldquo;%s&rdquo;"
+
+#: archive.php:62 search.php:26 page-templates/contact-template.php:41
+#: page-templates/aboutus-template.php:33
+#: page-templates/gallery-template.php:41 index.php:60 page.php:54
+msgid "No Posts Found."
+msgstr "Записей не обнаружено."
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Похоже, в этом месте ничего не было найдено. Может быть, попробуйте поискать?"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Сожалеем! Эта страница не может быть найдена."
+
+#. Author URI of the theme
+msgid "https://themefreesia.com"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://themefreesia.com/themes/Photograph"
+msgstr ""
+
+#. Author of the theme
+#: footer.php:75
+msgid "Theme Freesia"
+msgstr ""
